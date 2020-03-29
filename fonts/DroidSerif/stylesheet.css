@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('DroidSerif.eot');
+    src: url('DroidSerif.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerif.woff2') format('woff2'),
+        url('DroidSerif.woff') format('woff'),
+        url('DroidSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
