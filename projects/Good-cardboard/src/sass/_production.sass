@@ -1,0 +1,60 @@
+.production
+ display: flex
+ padding: 5em 0
+ justify-content: center
+ &-slider
+  width: 40%
+ &-description
+  width: 40%
+  &__title
+   padding: 0.5em 0 0.5em 1em
+   background-color: $active-color
+   color: $text-color-light
+   font-size: 28px
+   font-weight: 400
+  &__subtitle
+   padding: 0 1.4em
+   font-size: 20px
+   font-weight: 300
+   color: $text-color-dark
+.slider-for 
+ width: 535px
+ height: 377px
+ background-color: gray
+ margin: 0 auto 12px
+ &__img
+  height: 377px
+ &__img img
+  height: 100%
+.slider-nav
+ width: 485px
+ height: 78px
+ margin: 0 auto
+ &__img
+  margin: 0 6px
+  height: 78px
+ &__img img
+  height: 100%
+// Стрелки на слайдере
+.left-arrow, .right-arrow
+  color: $active-color
+  display: block
+  border: 1px solid
+  width: 22px
+  height: 78px
+  position: absolute
+  padding: 29px 7px
+.left-arrow:hover, .right-arrow:hover
+  background-color: $active-color
+  color: $text-color-light
+  border: none
+  cursor: pointer
+.left-arrow
+  left: -25px
+.right-arrow
+  right: -25px
+  top: 0
+.right-arrow #r-ar, .left-arrow #l-ar
+  fill: $active-color
+.right-arrow:hover #r-ar, .left-arrow:hover #l-ar
+  fill: $text-color-light
