@@ -1,3 +1,4 @@
+// Затемнение фона
 .dark-bg
     position: relative
     z-index: 1
@@ -11,10 +12,153 @@
         height: 100%
         background-color: rgba(0, 0, 0, 0.7)
         z-index: -1
-.vl
-    border-left: 1px solid rgba(50, 50, 50, 0.5)
-    height: 150px
-.active
+// Цвет и подчёркивание элемента меню активной страницы
+.menu-active
     color: $text-color-active
     border-bottom: 1px solid $text-color-active
+// Кнопки отправки заявок и статей
+.button-active
+    display: flex
+    height: 3rem
+    text-decoration: none
+    text-transform: uppercase
+    font-size: 24px
+    color: $text-color-active
+    justify-content: center
+    align-items: center
+    background-color: $color-dark
+    border: 1px solid $text-color-active
+// Заголовки страниц  
+.caption
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 16vh
+    padding: 0 7rem
+    background-color: $color-dark
+    color: $text-color-light
+    letter-spacing: 0.05em
+    &__title
+        width: 100%
+        height: 3rem
+        display: flex
+        align-items: center
+        justify-content: center
+        h2
+            width: 40vw
+            text-align: end
+            text-transform: uppercase
+            font-size: 42px
+        p
+            width: 40vw
+            font-family: 'NobelWGL'
+            font-size: 18px
+            font-weight: 300
+    &__vl
+        height: 100%
+        border-left: 2px solid rgba(255, 255, 255, 0.5)
+        margin: 0 3rem
+//Форма состоит из caption и reqest
+.form-caption
+    h2 
+        color: $text-color-active
+    p 
+        text-transform: uppercase
+    .caption__vl
+        margin: 0 2rem
+.request
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-transform: uppercase
+    background-color: $color-dark
+    color: $text-color-light
+    letter-spacing: 0.05em
+    .caption__vl
+        margin: 0 2rem
+    &__data
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 4rem 0
+        font-size: 18px
+        background-image: url(../img/mironova.png)
+        background-repeat: no-repeat
+        background-position: center
+        div 
+            display: flex
+            align-items: center
+            height: 3rem
+            label,
+            input
+                width: 25rem
+            label
+                font-family: 'NobelWGL'
+                text-align: right
+            input
+                font-family: 'NobelWGL-Book'
+                border: none
+                border-bottom: 1px solid $text-color-active
+                background-color: transparent
+                color: $text-color-light
+    &__rules    
+        display: flex     
+        .checkbox
+            height: 1rem
+            margin-right: 0.5rem
+        a 
+            text-decoration: none
+            color: $text-color-active
+            &:focus
+                outline: none
+    .button-active
+        margin: 1rem 0 2rem   
+        width: 62rem
+// Блок с фоном About и вертикаль
+.about-block
+    background: url(../img/about.png) center no-repeat
+    height: 100vh
+    padding: 2rem
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: space-between
+    &__text
+        display: flex
+        flex-direction: column
+        max-width: 51%
+        margin: 5vh auto
+        letter-spacing: 0.08em 
+        line-height: 24px
+        h2
+            max-width: 90%
+            padding-bottom: 2rem
+            text-transform: uppercase
+            font-family: 'NobelWGL'
+            font-size: 24px
+            font-weight: bold
+        p 
+            padding-bottom: 1.5rem
+            font-size: 20px
+.vl
+    border-left: 1px solid rgba(50, 50, 50, 0.5)
+    height: 15vh
+//Пустой блок
+.empty
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    height: 84vh
+    background-color: $color-dark
+    h2
+        text-transform: uppercase
+        color: $text-color-light
+        font-size: 2rem
+        margin-bottom: 0.5rem
+    &__img
+        height: 60vh
+        img 
+            height: 100%
 
