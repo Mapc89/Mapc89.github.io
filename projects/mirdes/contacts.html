@@ -41,7 +41,7 @@
             деталей.</p>
         <p>Просто свяжитесь с нами через форму ниже и мы предоставим для вас наилучшее решение.</p>
     </section>
-    <form action="mailto:mars.imus@yandex.ru">
+    <form action="mail.php" method="POST">
         <div class="caption form-caption">
             <div class="caption__title">
                 <h2>Мы перезвоним вам</h2>
@@ -53,20 +53,20 @@
         <div class="request">
             <div class="request__data">
                 <div><label for="">как мы можем к вам обратиться?</label>
-                    <div class="caption__vl"></div><input type="text" placeholder="ИМЯ">
+                    <div class="caption__vl"></div><input type="text" name="user-name" placeholder="ИМЯ">
                 </div>
                 <div><label for="">ваш номер телефона</label>
-                    <div class="caption__vl"></div><input type="tel" placeholder="+7 777 777 77 77">
+                    <div class="caption__vl"></div><input type="tel" name="user-phone" placeholder="+7 777 777 77 77">
                 </div>
                 <div><label for="">ваша почта</label>
-                    <div class="caption__vl"></div><input type="email" placeholder="E-MAIL">
+                    <div class="caption__vl"></div><input type="email" name="user-email" placeholder="E-MAIL">
                 </div>
             </div>
             <div class="request__rules"><input type="checkbox" class="checkbox"> <span>нажимая на кнопку вы выражаете
                     <a href="#">согласие</a> на отправку
                     персональных
                     данных</span></div>
-            <button class="button-active">отправить</button>
+            <button class="button-active" type="submit">отправить</button>
         </div>
     </form>
 

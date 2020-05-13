@@ -64,34 +64,32 @@
                     интерьера для создания идеального для Вас пространства</p>
             </div>
         </div>
-        <form action="mailto:mars.imus@yandex.ru">
+        <form action="mail.php" method="POST">
             <div class="caption form-caption">
                 <div class="caption__title">
                     <h2>Мы перезвоним вам</h2>
                     <div class="caption__vl"></div>
-                    <p class="form-p">Оставьте заявку и запишитесь <br> на консультацию <br> по вашему будущему
-                        интерьеру
+                    <p class="form-p">Оставьте заявку и запишитесь на консультацию <br> по вашему будущему интерьеру
                     </p>
                 </div>
             </div>
             <div class="request">
                 <div class="request__data">
                     <div><label for="">как мы можем к вам обратиться?</label>
-                        <div class="caption__vl"></div><input type="text" placeholder="ИМЯ">
+                        <div class="caption__vl"></div><input type="text" name="name" placeholder="ИМЯ">
                     </div>
                     <div><label for="">ваш номер телефона</label>
-                        <div class="caption__vl"></div><input type="tel" placeholder="+7 777 777 77 77">
+                        <div class="caption__vl"></div><input type="tel" name="phone" placeholder="+7 777 777 77 77">
                     </div>
                     <div><label for="">ваша почта</label>
-                        <div class="caption__vl"></div><input type="email" placeholder="E-MAIL">
+                        <div class="caption__vl"></div><input type="email" name="email" placeholder="E-MAIL">
                     </div>
                 </div>
-                <div class="request__rules"><input type="checkbox" class="checkbox"> <span>нажимая на кнопку вы
-                        выражаете
+                <div class="request__rules"><input type="checkbox" class="checkbox"> <span>нажимая на кнопку вывыражаете
                         <a href="#">согласие</a> на отправку
                         персональных
                         данных</span></div>
-                <button class="button-active">отправить</button>
+                <button type="submit" class="button-active">отправить</button>
             </div>
         </form>
     </div>
