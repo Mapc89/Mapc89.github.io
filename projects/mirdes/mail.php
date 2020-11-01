@@ -1,39 +1,33 @@
 <?php 
-
-require_once('phpmailer/PHPMailerAutoload.php');
-$mail = new PHPMailer;
-$mail->CharSet = 'utf-8';
+// Получаем данные с элементами формы
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+// Обрабатываем полученные данные
+    //Преобразование символов в сущности(мнемоники)
+$name = htmlspecialchars($name);
+$phone = htmlspecialchars($phone);
+$email = htmlspecialchars($email);
+    //декодирование URL
+$name = urldecode($name);
+$phone = urldecode($phone);
+$email = urldecode($email);
+    //удаляем пробельные символы
+$name = trim($name); 
+$phone = trim($phone);
+$email = trim($email);
 
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'mars.mailer@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = '$Ya11IoutpPP'; // Ваш пароль от почты с которой будут отправляться письма
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
-
-$mail->setFrom('mars.mailer@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('mars.imus@yandex.ru');     // Кому будет уходить письмо 
-//$mail->addAddress('ellen@example.com');               // Name is optional
-//$mail->addReplyTo('info@example.com', 'Information');
-//$mail->addCC('cc@example.com');
-//$mail->addBCC('bcc@example.com');
-//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-$mail->isHTML(true);                                  // Set email format to HTML
-
-$mail->Subject = 'Новая заявка';
-$mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
-$mail->AltBody = '';
-
-if(!$mail->send()) {
-    echo 'Error';
+//Отправляем данные на почту
+if(mail("mars.imus1989@gmail.com",
+        "Новая заявка",
+        "Имя: ".$name."\n".
+        "Телефон: ".$phone."\n".
+        "Email: ".$email,
+        "From: no-reply@mydomain.ru \r\n")
+){
+    echo('Письмо отправлено!');
 } else {
-    header('location: thank-you.html');
+    echo('Проверьте введённые данные...')
 }
 ?>

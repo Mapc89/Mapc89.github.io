@@ -17,7 +17,7 @@
                 <a class="menu__item" href="services.html">услуги и цены</a>
                 <a class="menu__item" href="portfolio.html">портфолио</a>
             </div>
-            <a class="menu__item logo" href="index.html"><img src="img/11 1.png" alt=""></a>
+            <a class="menu__item logo" href="index.html"><img src="img/logo.png" alt=""></a>
             <div class="menu__wrapper_right">
                 <a class="menu__item" href="blog.html">блог</a>
                 <a class="menu__item" href="contacts.html">контакты</a>
@@ -27,9 +27,9 @@
         <div class="header__info">+7 962 385 20 12</div>
     </header>
     <div class="about">
-        <section class="about-block">
+        <section class="about-block transparent-block">
             <div class="vl"></div>
-            <div class="about-block__text">
+            <div class="about-block__text transparent-block__text">
                 <p> Мы- молодая , но очень эмоциональная и амбициозная студия. <br> Мы создаем качественные дизайн
                     проекты
                     для
@@ -48,7 +48,7 @@
             <section class="princips-text">
                 <div class="empty">
                     <h2>Ожидайте...</h2>
-                    <div class="empty__img"><img src="./img/fox.jpg" alt=""></div>
+                    <div class="empty__img"><img src="/img/fox.jpg" alt=""></div>
                 </div>
             </section>
         </div>
@@ -76,13 +76,14 @@
             <div class="request">
                 <div class="request__data">
                     <div><label for="">как мы можем к вам обратиться?</label>
-                        <div class="caption__vl"></div><input type="text" name="name" placeholder="ИМЯ">
+                        <div class="caption__vl"></div><input type="text" name="name" placeholder="ИМЯ" required>
                     </div>
                     <div><label for="">ваш номер телефона</label>
-                        <div class="caption__vl"></div><input type="tel" name="phone" placeholder="+7 777 777 77 77">
+                        <div class="caption__vl"></div><input type="tel" name="phone" placeholder="+7 777 777 77 77"
+                            required>
                     </div>
                     <div><label for="">ваша почта</label>
-                        <div class="caption__vl"></div><input type="email" name="email" placeholder="E-MAIL">
+                        <div class="caption__vl"></div><input type="email" name="email" placeholder="E-MAIL" required>
                     </div>
                 </div>
                 <div class="request__rules"><input type="checkbox" class="checkbox"> <span>нажимая на кнопку вывыражаете
@@ -93,6 +94,20 @@
             </div>
         </form>
     </div>
+    <footer class="footer">
+        <nav class="menu">
+            <a class="menu__item" href="services.html">услуги и цены</a>
+            <a class="menu__item" href="portfolio.html">портфолио</a>
+            <a class="menu__item" href="blog.html">блог</a>
+            <a class="menu__item" href="contacts.html">контакты</a>
+            <a class="menu__item" href="about.html">о студии</a>
+        </nav>
+        <div class="footer__text">
+            <p>&#169;<b>Интерьерная студия "Mironova Design Decor"</b></p>
+            <p>2013-2020 год все права защищены.</p>
+            <p>Сайт создан <a href="http://mars-portfolio.ga/">Mars.Inc</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>
