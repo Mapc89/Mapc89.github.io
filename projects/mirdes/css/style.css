@@ -643,6 +643,26 @@ body {
   margin: 0.5rem 0;
 }
 
+.portfolio-instagram__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.portfolio-instagram__social .social-block {
+  position: absolute;
+  right: 2%;
+}
+
+.portfolio-instagram__social .button-active {
+  width: 25rem;
+}
+
 .portfolio-projects .transparent-block {
   height: 60vh;
 }
@@ -777,7 +797,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 76vh;
+  height: 62vh;
   padding: 0 10rem;
   font-size: 18px;
   text-align: center;
@@ -785,6 +805,16 @@ body {
 
 .contact-text p {
   padding: 0.7rem 0;
+}
+
+.contact-social {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15% 5%;
 }
 
 .about .about-block {
@@ -848,29 +878,96 @@ body {
   background-size: contain;
 }
 
-.about__boss .boss-text {
+.about__boss .boss-wrapper {
   width: 45rem;
+  height: 100%;
   padding-left: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about__boss .boss-wrapper .boss-text {
   letter-spacing: 0.05em;
 }
 
-.about__boss .boss-text h1 {
+.about__boss .boss-wrapper .boss-text h1 {
   padding-bottom: 1rem;
   text-transform: uppercase;
   font-size: 2.7rem;
 }
 
-.about__boss .boss-text h2 {
+.about__boss .boss-wrapper .boss-text h2 {
   padding-bottom: 3rem;
   text-transform: uppercase;
   font-size: 1.2rem;
 }
 
-.about__boss .boss-text p {
+.about__boss .boss-wrapper .boss-text p {
   width: 20rem;
   padding: 0.5rem 0;
   font-size: 1.1rem;
   line-height: 1.3;
+}
+
+.about .about__connect {
+  position: relative;
+}
+
+.about .about__connect .connect-title {
+  height: 10rem;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5vh auto;
+  letter-spacing: 0.08em;
+  line-height: 24px;
+  background: url(../img/transparent/connect.png) center no-repeat;
+  background-size: contain;
+}
+
+.about .about__connect .connect-title h2 {
+  text-transform: uppercase;
+  font-family: 'NobelWGL';
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 100%;
+}
+
+.about .about__connect .connect-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about .about__connect .connect-text p {
+  text-transform: uppercase;
+  font-family: 'NobelWGL';
+  font-size: 24px;
+}
+
+.about .about__connect .social-block {
+  position: absolute;
+  bottom: 3%;
+  right: 20%;
 }
 
 .dark-bg {
@@ -1200,6 +1297,45 @@ body {
   text-transform: uppercase;
   color: #FFC773;
   font-size: 3rem;
+}
+
+.social-block {
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-block .ok,
+.social-block .fb,
+.social-block .vk,
+.social-block .in {
+  width: 3rem;
+  height: 3rem;
+}
+
+.social-block .ok {
+  width: 2.8rem;
+  background: url(../img/ico/ok_ico.png) center no-repeat;
+  background-size: contain;
+}
+
+.social-block .fb {
+  background: url(../img/ico/fb_ico.png) center no-repeat;
+  background-size: contain;
+}
+
+.social-block .vk {
+  background: url(../img/ico/vk_ico.png) center no-repeat;
+  background-size: contain;
+}
+
+.social-block .in {
+  background: url(../img/ico/insta_ico.png) center no-repeat;
+  background-size: contain;
 }
 
 @media only screen and (max-width: 1366px) {

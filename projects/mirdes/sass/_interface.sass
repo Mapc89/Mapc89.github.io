@@ -77,9 +77,9 @@
     height: 25vh
 //Форма состоит из caption и reqest
 .form-caption
-    h2 
+    h2
         color: $text-color-active
-    p 
+    p
         text-transform: uppercase
     .caption__vl
         margin: 0 2rem
@@ -104,7 +104,7 @@
         background-repeat: no-repeat
         background-position: center
         background-size: contain
-        div 
+        div
             display: flex
             align-items: center
             height: 3rem
@@ -120,18 +120,18 @@
                 border-bottom: 1px solid $text-color-active
                 background-color: transparent
                 color: $text-color-light
-    &__rules    
-        display: flex     
+    &__rules
+        display: flex
         .checkbox
             height: 1rem
             margin-right: 0.5rem
-        a 
+        a
             text-decoration: none
             color: $text-color-active
             &:focus
                 outline: none
     .button-active
-        margin: 1rem 0 2rem   
+        margin: 1rem 0 2rem
         width: 50%
 // Блок с прозрачной надписью и вертикалями
 .transparent-block
@@ -146,7 +146,7 @@
         flex-direction: column
         max-width: 51%
         margin: 5vh auto
-        letter-spacing: 0.08em 
+        letter-spacing: 0.08em
         line-height: 24px
         h2
             max-width: 90%
@@ -155,7 +155,7 @@
             font-family: 'NobelWGL'
             font-size: 24px
             font-weight: bold
-        p 
+        p
             padding-bottom: 1.5rem
             font-size: 20px
 .vl
@@ -176,7 +176,7 @@
         margin-bottom: 0.5rem
     &__img
         height: 60vh
-        img 
+        img
             height: 100%
 // Страница благодарности за заявку
 .thank-you
@@ -185,8 +185,32 @@
     align-items: center
     height: 92vh
     background-color: $color-dark
-    h2 
+    h2
         text-transform: uppercase
         color: $text-color-active
         font-size: 3rem
 
+// Блок с иконками соцсетей
+.social-block
+    width: 15rem
+    display: flex
+    justify-content: space-between
+    .ok,
+    .fb,
+    .vk,
+    .in
+        width: 3rem
+        height: 3rem
+    .ok
+        width: 2.8rem
+        background: url(../img/ico/ok_ico.png) center no-repeat
+        background-size: contain
+    .fb
+        background: url(../img/ico/fb_ico.png) center no-repeat
+        background-size: contain
+    .vk
+        background: url(../img/ico/vk_ico.png) center no-repeat
+        background-size: contain
+    .in
+        background: url(../img/ico/insta_ico.png) center no-repeat
+        background-size: contain
