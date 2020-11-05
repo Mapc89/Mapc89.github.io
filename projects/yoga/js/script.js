@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     //Таймер
 
-    let deadline = '2020-05-28';
+    let deadline = '2020-12-31';
 
 
     function getTimeRemining(endtime) {

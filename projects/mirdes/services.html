@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <!-- Заказать -->
-                <a href="#" class="button-active">Заказать проект</a>
+                <button class="button-active order">Заказать проект</button>
             </div>
             <div class="price-list__item">
                 <!-- Шапка с тарифом -->
@@ -181,7 +181,7 @@
                 </div>
                 </div>
                 <!-- Заказать -->
-                <a href="#" class="button-active">Заказать проект</a>
+                <button class="button-active order">Заказать проект</button>
             </div>
             <div class="price-list__item">
                 <!-- Шапка с тарифом -->
@@ -230,7 +230,7 @@
                     </div>
                 </div>
                 <!-- Заказать -->
-                <a href="#" class="button-active">Заказать проект</a>
+                <button class="button-active order">Заказать проект</button>
             </div>
         </div>
     </div>
@@ -271,7 +271,7 @@
                        До 60м2 - <span>25 000 Р</span><br>
                        До 100м2 - <span>30 000 Р</span></p>
                     <p>Свыше 100м2 - <span>300 Р|м2</span></p>
-                    <a href="#" class="button-active">Заказать услугу</a>
+                    <button class="button-active order">Заказать услугу</button>
             </div>
         </div>
         <div class="option-services__author">
@@ -317,7 +317,8 @@
                 </div>
                 <div class="author__price">
                     <p>от <span>25 000</span>р|м</p>
-                    <a href="#" class="button-active">Заказать услугу</a>
+                    <button class="button-active order">Заказать услугу</button>
+                    <!-- <a href="#" class="button-active order">Заказать услугу</a> -->
                 </div>
                    
             </div>
@@ -332,6 +333,29 @@
             <div class="vl"></div>
         </div>
     </div>
+    <!-- Всплывающее окно -->
+    <div class="overlay fade">
+		<div class="popup">
+			<div class="popup-close">&times;
+			</div>
+			<div class="popup-title">
+				Форма обратной связи</div>
+			<div class="popup-form">
+				<form action="#" class="main-form">
+					<div class="popup-form-header">
+						Узнайте больше о своём отдыхе
+					</div>
+					<label class="popup-form__label" for="phone">
+						Введите ваш номер телефона:
+					</label>
+					<input class="popup-form__input" name="phone" type="tel" required placeholder="+7(978) 973 33 45">
+					<button class="button popup-form__btn">
+						Оставить заявку!
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
     <footer class="footer">
         <nav class="menu">
             <a class="menu__item" href="services.html">услуги и цены</a>
@@ -346,6 +370,8 @@
             <p>Сайт создан <a href="http://mars-portfolio.ga/">Mars.Inc</a></p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
