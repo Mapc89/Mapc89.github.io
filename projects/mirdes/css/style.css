@@ -1415,13 +1415,36 @@ body {
 
 .overlay .popup {
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   z-index: 4;
+  width: 35vw;
+  height: 25vh;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  top: 50%;
+  top: 35%;
+  text-align: center;
   background-color: #1F1B20;
   outline: 1px solid #FFC773;
+}
+
+.overlay .popup-close {
+  position: absolute;
+  font-family: 'NobelWGL';
+  font-size: 50px;
+  cursor: pointer;
+  color: #FFC773;
+  right: 5px;
+  top: -10px;
 }
 
 .overlay .popup-title {
@@ -1432,6 +1455,42 @@ body {
 
 .overlay .popup-form {
   color: #ffffff;
+}
+
+.overlay .popup-form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+.overlay .popup-form div .caption__vl {
+  margin: 0 2rem;
+}
+
+.overlay .popup-form__label {
+  text-transform: uppercase;
+  font-family: 'NobelWGL';
+}
+
+.overlay .popup-form__input {
+  font-family: 'NobelWGL-Book';
+  border: none;
+  border-bottom: 1px solid #FFC773;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.overlay .popup-form__btn {
+  margin: 2rem auto 0;
 }
 
 .fade {

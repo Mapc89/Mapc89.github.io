@@ -228,20 +228,52 @@
     z-index: 3
     .popup //Всплывающее окно
         position: fixed
+        display: flex
+        flex-direction: column
+        justify-content: space-evenly
         z-index: 4
+        width: 35vw
+        height: 25vh
         left: 50%
         transform: translateX(-50%)
-        top: 50%
+        top: 35%
+        text-align: center
         background-color: $color-dark
         outline: 1px solid $text-color-active
         &-close
+            position: absolute
+            font-family: 'NobelWGL'
+            font-size: 50px
+            cursor: pointer
+            color: $text-color-active
+            right: 5px
+            top: -10px
         &-title
             color: $text-color-active
             font-size: 2rem
             text-transform: uppercase
         &-form
             color: $text-color-light
-
+            div
+                display: flex
+                justify-content: center
+                align-items: center
+                height: 2rem
+                margin: 1rem
+                font-size: 1.4rem
+                .caption__vl
+                    margin: 0 2rem
+            &__label
+                text-transform: uppercase
+                font-family: 'NobelWGL'
+            &__input
+                font-family: 'NobelWGL-Book'
+                border: none
+                border-bottom: 1px solid #FFC773
+                background-color: transparent
+                color: #ffffff
+            &__btn
+                margin: 2rem auto 0
 .fade //Затухание
     animation-name: fade
     animation-duration: 2.5s
