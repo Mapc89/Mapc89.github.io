@@ -1477,11 +1477,14 @@ body {
 }
 
 .overlay .popup-form__label {
+  width: 17rem;
   text-transform: uppercase;
   font-family: 'NobelWGL';
 }
 
 .overlay .popup-form__input {
+  width: 17rem;
+  text-align: center;
   font-family: 'NobelWGL-Book';
   border: none;
   border-bottom: 1px solid #FFC773;
