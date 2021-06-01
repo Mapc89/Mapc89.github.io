@@ -309,7 +309,7 @@ body {
 
 .services-img {
   height: 100vh;
-  background: url(../img/services.jpg) center no-repeat;
+  background: url(../img/services.png) center no-repeat;
   background-size: cover;
 }
 
@@ -439,6 +439,7 @@ body {
           justify-content: center;
   height: 15rem;
   padding-left: 1rem;
+  border-radius: 20px 20px 0 0;
   color: #ffffff;
 }
 
@@ -465,6 +466,7 @@ body {
   height: 100%;
   margin-bottom: 2rem;
   padding: 2rem 1rem 1rem;
+  border-radius: 0 0 20px 20px;
   background-color: #1F1B20;
 }
 
@@ -1069,6 +1071,7 @@ body {
           align-items: center;
   background-color: #1F1B20;
   border: 1px solid #FFC773;
+  border-radius: 3rem;
 }
 
 .button-active:hover {
