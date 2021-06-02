@@ -1523,3 +1523,56 @@ body {
     background-size: contain;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .mobile-hide {
+    display: none;
+  }
+  .main__title_acitve {
+    margin: 0 auto 15vh;
+  }
+  .main .instagram__picture {
+    max-width: 95%;
+  }
+  .main .instagram__img {
+    width: 10rem;
+    height: 10rem;
+    margin: 0.3rem;
+  }
+  .main__connect .connect-title {
+    width: 100%;
+  }
+  .main__connect .connect-title h2 {
+    font-size: 20px;
+  }
+  .main__connect .connect-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .main__connect .connect-text p {
+    padding: 0.5rem;
+  }
+  .transparent-block__text {
+    max-width: 95%;
+  }
+  .about__boss {
+    background: none;
+  }
+  .about__boss .boss-wrapper {
+    padding: 0 5vw;
+  }
+  .about__boss .boss-wrapper .boss-text p {
+    width: 33rem;
+  }
+  .caption {
+    padding: 0;
+  }
+  .footer .menu {
+    padding: 1rem;
+    padding-bottom: 2rem;
+  }
+}

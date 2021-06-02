@@ -13,12 +13,12 @@
     <header class="header">
         <div class="header__info"></div>
         <nav class="menu">
-            <div class="menu__wrapper_left">
+            <div class="menu__wrapper_left mobile-hide">
                 <a class="menu__item" href="services.html">услуги и цены</a>
                 <a class="menu__item" href="portfolio.html">портфолио</a>
             </div>
             <a class="menu__item logo" href="#"><img src="img/logo.png" alt="логотип"></a>
-            <div class="menu__wrapper_right">
+            <div class="menu__wrapper_right mobile-hide">
                 <a class="menu__item" href="blog.html">блог</a>
                 <a class="menu__item" href="contacts.html">контакты</a>
                 <a class="menu__item" href="about.html">о студии</a>
@@ -74,37 +74,28 @@
                 <div class="boss-text">
                     <h1>Дарья Миронова</h1>
                     <h2>Руководитель дизайн-студии</h2>
-                    <p>Дизайн интерьера- моя жизнь и мой путь сердца! 
-                        Моя миссия в этом мире - создавать гармоничное 
-                        и красивое пространство , которое будет полностью отражать вашу уникальную личность.
-                        </p>
-                    <p>Я искренне считаю, что интерьер должен соответствовать не только вашим вкусам, но и обладать вашими личными качествами, должен соответствовать вашим потребностям и образу жизни.</p>
-                    <p>Многолетний опыт позволяет рассмотреть все возможные варианты работы с планировкой пространства. 
-                        ПЛАНИРОВОЧНОЕ РЕШЕНИЕ- ЭТО КИТ, НА КОТОРОМ ДЕРЖИТСЯ ВЕСЬ ИНТЕРЬЕР.
-                        По этому особое внимание мы  уделяем перепланировке помещений, 
-                        ведь самое важное, чтобы интерьер был удобен, а каждый сантиметр был использован с умом. 
-                        При этом делаем пространство невероятно уютным .
-                        </p>
-                </div>
-                <div class="social-block">
-                    <a href="#" class="fb"></a>
-                    <a href="https://vk.com/design_decor_mironova" class="vk"></a>
-                    <a href="https://www.instagram.com/design_decor_mironova/" class="in"></a>
-                    <a href="#" class="ok"></a>
+                    <p>Моя миссия -создавать гармоничное и красивое пространство, которое будет полностью соответствовать вкусам, личным качествам, потребности и образу жизни своего владельца!
+                    </p>
+                    <p>С вниманием к деталям, фактурам и комфорту.</p>
+                    <p>
+                        Я знаю, как это важно, что бы ваш дом, ваше место силы и отдыха, был самым красивым, уютным, теплым, светлым и легким именно для вас!
+                    </p>
+                    <p>По этому мой подход очень прост- создать максимально подходящее по энергетике и настроению пространство , при этом отвечающее самым модным и невероятно стильным тенденциям в дизайне .</p>
+                    <p>Благодарю, что доверяете свое доброе утро бюро дизайна  MIRONOVA DESIGN.</p>
                 </div>
             </div>
         </div>
         <form action="mail.php" method="POST">
             <div class="caption form-caption">
                 <div class="caption__title">
-                    <h2>Мы перезвоним вам</h2>
+                    <h2>Оставьте заявку</h2>
                     <div class="caption__vl"></div>
-                    <p class="form-p">Оставьте заявку и запишитесь на консультацию <br> по вашему будущему интерьеру
+                    <p class="form-p">Запишитесь на консультацию <br> по вашему будущему интерьеру
                     </p>
                 </div>
             </div>
             <div class="request">
-                <div class="request__data">
+                <div class="request__data mobile-hide">
                     <div><label for="">как мы можем к вам обратиться?</label>
                         <div class="caption__vl"></div><input type="text" name="name" placeholder="ИМЯ" required>
                     </div>
@@ -126,13 +117,19 @@
         <section class="main__connect transparent-block">
             <div class="vl"></div>
             <div class="connect-title">
-                <h2>Мы создадим дизайн с твоим характером</h2>
+                <h2>Создаём дизайн с твоим характером</h2>
             </div>
             <div class="connect-text">
                 <p>Заказать проект:<br><strong>dmartburo@gmail.com</strong></p>
                 <p>телефон whatsupp:<br><strong>+7 962 385 20 12</strong></p>
             </div>
-            <div class="vl"></div>
+            <div class="social-block">
+                <a href="#" class="fb"></a>
+                <a href="https://vk.com/design_decor_mironova" class="vk"></a>
+                <a href="https://www.instagram.com/design_decor_mironova/" class="in"></a>
+                <!-- <a href="#" class="ok"></a> -->
+            </div>
+            <div class="vl mobile-hide"></div>
         </section>
     </div>
     <footer class="footer">
@@ -146,7 +143,6 @@
         <div class="footer__text">
             <p>&#169;<b>Интерьерная студия "Mironova Design Decor"</b></p>
             <p>2013-2020 год все права защищены.</p>
-            <p>Сайт создан <a href="http://mars-portfolio.ga/">Mars.Inc</a></p>
         </div>
     </footer>
 </body>
