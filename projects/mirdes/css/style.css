@@ -1576,3 +1576,15 @@ body {
     padding-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .main__title_acitve {
+    font-size: 35px;
+  }
+  .main .instagram a {
+    margin: 2rem 2rem;
+  }
+  .main .instagram__img a {
+    margin: 1.5rem auto 8rem;
+  }
+}
