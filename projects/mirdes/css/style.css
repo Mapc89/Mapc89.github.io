@@ -1578,13 +1578,56 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  .header {
+    padding-top: 3vh;
+  }
+  .main__title {
+    height: 99vh;
+  }
   .main__title_acitve {
-    font-size: 35px;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+  }
+  .main__title_small {
+    opacity: 0.9;
+    font-size: 1.1rem;
+  }
+  .main__about .transparent-block {
+    padding: 0.5rem;
+  }
+  .main__about .transparent-block__text h2 {
+    font-size: 1.1rem;
+  }
+  .main__about .transparent-block__text p {
+    padding-bottom: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  .main .instagram {
+    margin-bottom: 8rem;
   }
   .main .instagram a {
     margin: 2rem 2rem;
+    font-size: 1rem;
+  }
+  .main .instagram__img {
+    width: 8rem;
+    height: 8rem;
   }
   .main .instagram__img a {
     margin: 1.5rem auto 8rem;
+  }
+  .main__connect .connect-title h2 {
+    font-size: 12px;
+  }
+  .main__connect .connect-text p {
+    font-size: 1.3rem;
+  }
+  .transparent-block {
+    padding: 0.5rem;
+  }
+  .vl {
+    border-left: 1px solid rgba(50, 50, 50, 0.5);
+    height: 15vh;
   }
 }
