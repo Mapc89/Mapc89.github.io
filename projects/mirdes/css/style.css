@@ -1566,7 +1566,7 @@ body {
     padding: 0 5vw;
   }
   .about__boss .boss-wrapper .boss-text p {
-    width: 33rem;
+    width: 100%;
   }
   .caption {
     padding: 0;
