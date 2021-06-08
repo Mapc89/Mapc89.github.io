@@ -1506,6 +1506,10 @@ body {
           animation-duration: 2.5s;
 }
 
+.mobile-only {
+  display: none;
+}
+
 @media only screen and (max-width: 1366px) {
   .menu .logo {
     width: 4rem;
@@ -1604,7 +1608,7 @@ body {
     line-height: 1.3;
   }
   .main .instagram {
-    margin-bottom: 8rem;
+    margin-bottom: 0;
   }
   .main .instagram a {
     margin: 2rem 2rem;
@@ -1621,13 +1625,57 @@ body {
     font-size: 12px;
   }
   .main__connect .connect-text p {
+    line-height: 1.5rem;
     font-size: 1.3rem;
   }
+  .footer .menu {
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+  }
+  .footer .menu__item {
+    margin: 0 0.3rem;
+    font-size: 0.7rem;
+  }
+  .footer__text p {
+    font-size: 0.8rem;
+  }
   .transparent-block {
+    height: 70vh;
     padding: 0.5rem;
   }
   .vl {
     border-left: 1px solid rgba(50, 50, 50, 0.5);
     height: 15vh;
+  }
+  .form-caption h2 {
+    width: 45vw;
+    font-size: 1rem;
+  }
+  .form-caption p {
+    width: 45vw;
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+  }
+  .form-caption .caption__vl {
+    margin: 0 1rem;
+  }
+  .request .mobile-only {
+    display: block;
+    padding: 2rem 1.5rem 3.5rem;
+  }
+  .request .mobile-only input {
+    text-transform: uppercase;
+  }
+  .request__rules {
+    padding: 0 1.5rem;
+  }
+  .request__rules .checkbox {
+    height: 3rem;
+    width: 4rem;
+  }
+  .request__rules label {
+    padding-top: 0.8rem;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
   }
 }
