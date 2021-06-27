@@ -1657,6 +1657,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 8rem;
   }
   .slider-mobile .slider-item .advantage-item__img {
     width: 25vw;

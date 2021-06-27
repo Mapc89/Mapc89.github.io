@@ -43,7 +43,9 @@ window.addEventListener('DOMContentLoaded', () => {
         optionServices.style.paddingRight = '';
     });
     $('.slider-mobile').slick({
-        arrows: false
+        arrows: false,
+        // autoplay: true,
+        // autoplaySpeed: 2000
     });
 });
 
