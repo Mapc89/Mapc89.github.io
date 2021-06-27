@@ -7,18 +7,20 @@
     <title>Услуги и цены</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
     <header class="header">
         <div class="header__info"></div>
         <nav class="menu">
-            <div class="menu__wrapper_left">
+            <div class="menu__wrapper_left mobile-hide">
                 <a class="menu__item menu-active" href="#">услуги и цены</a>
                 <a class="menu__item" href="portfolio.html">портфолио</a>
             </div>
             <a class="menu__item logo" href="index.html"><img src="img/logo.png" alt=""></a>
-            <div class="menu__wrapper_right">
+            <div class="menu__wrapper_right mobile-hide">
                 <a class="menu__item" href="blog.html">блог</a>
                 <a class="menu__item" href="contacts.html">контакты</a>
                 <a class="menu__item" href="about.html">о студии</a>
@@ -30,12 +32,12 @@
         <div class="caption__title">
             <h2>Услуги и цены</h2>
             <div class="caption__vl vl_small"></div>
-            <p>Мы предоставляем весь комплекс услуг в сфере дизайна интерьеров, от проектирования до реализации.</p>
+            <p>Весь комплекс услуг в сфере дизайна интерьеров. <br> От проектирования до реализации.</p>
         </div>
     </section>
     <div class="services-img"></div>
     <!-- Плюшки -->
-    <div class="services-advantage">
+    <div class="services-advantage mobile-hide">
         <div class="advantage-item">
             <div class="advantage-item__img"><img src="img/services/home.png" alt=""></div>
             <div class="advantage-item__text">
@@ -87,11 +89,67 @@
             </div>
         </div>
     </div>
+    <div class="slider mobile-only">
+        <div class="slider-item">
+            <div class="advantage-item">
+                <div class="advantage-item__img"><img src="img/services/home.png" alt=""></div>
+                <div class="advantage-item__text">
+                    <h2>Интерьеры кваритр и частных домов</h2>
+                    <p>Индивидуальный интерьер, учитывающий ваши потребности,вкусы и образ жизни. Мы знаем, что дома вы
+                        хотите отдохнуть, по этому создаем стильные и уютные интерьеры с вашим характером.</p>
+                </div>
+            </div>
+            <div class="advantage-item">
+                <div class="advantage-item__img"><img src="img/services/public.png" alt=""></div>
+                <div class="advantage-item__text">
+                    <h2>Интерьеры для общественных пространств</h2>
+                    <p>Продумываем до мелочей общественные помещения любого назначения и под необходимый бюджет. Интерьер
+                        бутика, салона, магазина, торгового центра, торговые площади. Рестораны, кафе, бары, зоны отдыха,
+                        ночные клубы, общественные площадки, больницы, частные клиники,бассейны и т.д</p>
+                </div>
+            </div>
+            <div class="advantage-item">
+                <div class="advantage-item__img"><img src="img/services/replanning.png" alt=""></div>
+                <div class="advantage-item__text">
+                    <h2>Перепланировка</h2>
+                    <p>Без грамотной планировки и расстановки мебели и оборудования - дизайн лишь оформление. Мы делаем
+                        объект максимально удобным и функциональным для вас. Это поможет не ошибиться с покупкой квартиры
+                        или монтажом.</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="advantage-item">
+                <div class="advantage-item__img"><img src="img/services/selection.png" alt=""></div>
+                <div class="advantage-item__text">
+                    <h2>Подбор электроприборов и мебели</h2>
+                    <p>Чтобы все было идеально, важно чтобы мебель и приборы были подобраны реальные. Мы знаем где найти
+                        именно то, что вам нужно и по самой вкусной цене.</p>
+                </div>
+            </div>
+            <div class="advantage-item">
+                <div class="advantage-item__img"><img src="img/services/construction.png" alt=""></div>
+                <div class="advantage-item__text">
+                    <h2>Строительные работы</h2>
+                    <p>Наши строители - высококлассные специалисты с многолетним опытом и образованием в сфере строительства
+                        и архитектуры. Посоветуем и подберем для вас специалистов для решения любой задачи.</p>
+                </div>
+            </div>
+            <div class="advantage-item">
+                <div class="advantage-item__img"><img src="img/services/search.png" alt=""></div>
+                <div class="advantage-item__text">
+                    <h2>Подбор материалов</h2>
+                    <p>Подбираем материалы, подходящие по виду, свойствам и затратам. Сотрудничаем с интерьерными салонами,
+                        что позволяет оформять заказы по максимально выгодным для клиента условиям.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="block__vl">
         <div class="vl"></div>
     </div>
     <!-- Тарифы -->
-    <div class="price-list">
+    <div class="price-list mobile-hide">
         <div class="price-list__title transparent-block">
             <p>Выберите тариф который вам подходит,<br> свяжитесь с нами <br> и закажите дизайн-проект для жилого
                 помещения</p>
@@ -235,7 +293,7 @@
         </div>
     </div>
     <!-- Дополнительные услуги -->
-    <div class="option-services">
+    <div class="option-services mobile-hide">
         <div class="option-services__block transparent-block">
             <div class="vl"></div>
             <div class="option-services__title transparent-block__text">
@@ -370,8 +428,9 @@
             <p>Сайт создан <a href="http://mars-portfolio.ga/">Mars.Inc</a></p>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-	<script src="js/script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

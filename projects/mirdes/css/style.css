@@ -313,6 +313,10 @@ body {
   background-size: cover;
 }
 
+.slider {
+  display: none;
+}
+
 .services-advantage {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1506,10 +1510,6 @@ body {
           animation-duration: 2.5s;
 }
 
-.mobile-only {
-  display: none;
-}
-
 @media only screen and (max-width: 1366px) {
   .menu .logo {
     width: 4rem;
@@ -1531,6 +1531,9 @@ body {
 @media only screen and (max-width: 576px) {
   .mobile-hide {
     display: none;
+  }
+  .mobile-only {
+    display: block;
   }
   .main__title_acitve {
     margin: 0 auto 15vh;
@@ -1628,6 +1631,9 @@ body {
     line-height: 1.5rem;
     font-size: 1.3rem;
   }
+  .services-img {
+    height: 50vh;
+  }
   .footer .menu {
     padding: 1rem 0;
     padding-bottom: 2rem;
@@ -1677,5 +1683,15 @@ body {
     padding-top: 0.8rem;
     font-size: 0.6rem;
     line-height: 0.8rem;
+  }
+  .caption {
+    padding-top: 2rem;
+    height: 17vh;
+  }
+  .caption__title h2 {
+    font-size: 2rem;
+  }
+  .caption__title p {
+    font-size: 0.8rem;
   }
 }

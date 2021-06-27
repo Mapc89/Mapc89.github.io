@@ -13,6 +13,8 @@
 @media only screen and (max-width: 576px)
     .mobile-hide
         display: none
+    .mobile-only
+        display: block
     .main
         &__title
             &_acitve
@@ -97,6 +99,7 @@
         &__text
             p
                 a
+
     .main //Главная
         &__title
             height: 99vh
@@ -140,6 +143,7 @@
                     font-size: 1.3rem
                     strong
     .services-img //Услуги
+        height: 50vh
     .services-advantage
         .advantage-item
             &__img
@@ -236,5 +240,16 @@
                 padding-top: 0.8rem
                 font-size: 0.6rem
                 line-height: 0.8rem
+    // Заголовки страниц  
+    .caption
+        padding-top: 2rem
+        height: 17vh
+        &__title
+            h2
+                font-size: 2rem
+                a
+            p
+                font-size: 0.8rem
+        &__vl
 // @media only screen and (max-width: 720px)
 // @media only screen and (max-width: 1366px)
