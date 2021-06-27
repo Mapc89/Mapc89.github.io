@@ -1634,10 +1634,19 @@ body {
   .services-img {
     height: 50vh;
   }
-  .slider-mobile {
-    padding: 0 1rem;
+  .slider-wrapper .price-list__title {
+    height: 15vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .slider-mobile .slider-item {
+  .slider-wrapper .price-list__title p {
+    font-size: 1rem;
+  }
+  .slider-mobile .slider-item__advantage {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1650,7 +1659,7 @@ body {
             justify-content: space-evenly;
     height: 70vh;
   }
-  .slider-mobile .slider-item .advantage-item {
+  .slider-mobile .slider-item__advantage .advantage-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1658,23 +1667,50 @@ body {
         -ms-flex-align: center;
             align-items: center;
     height: 8rem;
+    padding: 0 1rem;
   }
-  .slider-mobile .slider-item .advantage-item__img {
-    width: 25vw;
+  .slider-mobile .slider-item__advantage .advantage-item__img {
+    width: 30vw;
   }
-  .slider-mobile .slider-item .advantage-item__text {
-    max-width: 75vw;
+  .slider-mobile .slider-item__advantage .advantage-item__text {
+    max-width: 70vw;
     padding-left: 1.5rem;
   }
-  .slider-mobile .slider-item .advantage-item__text h2 {
+  .slider-mobile .slider-item__advantage .advantage-item__text h2 {
     text-transform: uppercase;
     font-size: 0.7rem;
     line-height: 1.3rem;
     font-weight: bold;
   }
-  .slider-mobile .slider-item .advantage-item__text p {
+  .slider-mobile .slider-item__advantage .advantage-item__text p {
     font-size: 0.8rem;
     line-height: 0.8rem;
+  }
+  .slider-mobile .slider-item__price .price-list__item {
+    min-width: 100%;
+    padding: 0;
+  }
+  .slider-mobile .slider-item__price .price-list__top {
+    height: 10rem;
+    border-radius: 0;
+  }
+  .slider-mobile .slider-item__price .price-list__top h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .slider-mobile .slider-item__price .price-list__top p {
+    font-size: 1.2rem;
+    opacity: 0.6;
+  }
+  .slider-mobile .slider-item__price .price-list__offer {
+    height: 56rem;
+    border-radius: 0;
+  }
+  .slider-mobile .slider-item__price .price-list__text ul {
+    list-style: circle;
+  }
+  .slider-mobile .slider-item__price .price-list__text ul li {
+    margin: 0.5rem;
   }
   .footer .menu {
     padding: 1rem 0;
@@ -1731,9 +1767,13 @@ body {
     height: 17vh;
   }
   .caption__title h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .caption__title p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+  .caption__vl {
+    margin: 0 1rem;
   }
 }

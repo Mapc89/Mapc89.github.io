@@ -44,8 +44,9 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     $('.slider-mobile').slick({
         arrows: false,
+        infinite: true,
         // autoplay: true,
-        // autoplaySpeed: 2000
+        // autoplaySpeed: 3000
     });
 });
 
