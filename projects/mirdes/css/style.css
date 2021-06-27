@@ -1712,6 +1712,30 @@ body {
   .slider-mobile .slider-item__price .price-list__text ul li {
     margin: 0.5rem;
   }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title {
+    background-color: #1F1B20;
+    color: #ffffff;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer {
+    height: 60vh;
+    background-color: #1F1B20;
+    color: #ffffff;
+    padding: 2rem 1rem 0;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list .mobile-option__column h2 {
+    text-transform: uppercase;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list .mobile-option__column ul {
+    list-style: circle;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list .mobile-option__column ul li {
+    margin: 0.5rem;
+  }
   .be-yourself .transparent-block {
     height: 40vh;
     display: -webkit-box;
