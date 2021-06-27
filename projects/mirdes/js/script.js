@@ -42,9 +42,8 @@ window.addEventListener('DOMContentLoaded', () => {
         priceList.style.paddingRight = '';
         optionServices.style.paddingRight = '';
     });
-    $('.slider').slick({
-        arrows: false,
-        dots: true
+    $('.slider-mobile').slick({
+        arrows: false
     });
 });
 

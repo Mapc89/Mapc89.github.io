@@ -144,12 +144,29 @@
                     strong
     .services-img //Услуги
         height: 50vh
-    .services-advantage
-        .advantage-item
-            &__img
-            &__text
-                h2
-                p
+    .slider-mobile
+        padding: 0 1rem
+        .slider-item
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            height: 70vh
+            .advantage-item
+                display: flex
+                align-items: center
+                &__img
+                    width: 25vw
+                &__text
+                    max-width: 75vw
+                    padding-left: 1.5rem
+                    h2
+                        text-transform: uppercase
+                        font-size: 0.7rem
+                        line-height: 1.3rem
+                        font-weight: bold
+                    p
+                        font-size: 0.8rem
+                        line-height: 0.8rem
     .price-list
         .transparent-block
         &__title
