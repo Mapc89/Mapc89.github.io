@@ -1712,6 +1712,24 @@ body {
   .slider-mobile .slider-item__price .price-list__text ul li {
     margin: 0.5rem;
   }
+  .be-yourself .transparent-block {
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .be-yourself__block {
+    background: url(../img/transparent/be_yourself_mob.png) center no-repeat;
+    background-size: 90%;
+  }
+  .be-yourself__title p {
+    font-size: 0.8rem;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
   .footer .menu {
     padding: 1rem 0;
     padding-bottom: 2rem;
