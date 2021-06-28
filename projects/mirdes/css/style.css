@@ -1750,28 +1750,30 @@ body {
     border-left: 2px solid rgba(255, 199, 115, 0.5);
   }
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer {
-    height: 60vh;
+    height: 100vh;
     background-color: #1F1B20;
     color: #ffffff;
     padding: 2rem 1rem 0;
+    margin-bottom: 2rem;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer ul {
+    list-style: circle;
+    margin-bottom: 3rem;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer ul li {
+    margin: 0.5rem;
   }
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer p {
     text-align: center;
-    padding: 1rem;
+    padding-top: 1rem;
+    line-height: 1.3rem;
   }
-  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list .mobile-option__column h2 {
-    text-transform: uppercase;
-  }
-  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list .mobile-option__column ul {
-    list-style: circle;
-  }
-  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list .mobile-option__column ul li {
-    margin: 0.5rem;
+  .slider-mobile .slider-item__option .mobile-option__item .button-active {
+    min-width: 100%;
   }
   .be-yourself .transparent-block {
     height: 40vh;

@@ -45,6 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
     $('.slider-mobile').slick({
         arrows: false,
         infinite: true,
+        adaptiveHeight: true
         // autoplay: true,
         // autoplaySpeed: 3000
     });
