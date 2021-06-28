@@ -1646,6 +1646,15 @@ body {
   .slider-wrapper .price-list__title p {
     font-size: 1rem;
   }
+  .slider-wrapper .option-services__block {
+    height: 30vh;
+  }
+  .slider-wrapper .option-services__block .option-services__title {
+    text-align: center;
+  }
+  .slider-wrapper .option-services__block .option-services__title p {
+    font-size: 1rem;
+  }
   .slider-mobile .slider-item__advantage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1713,14 +1722,42 @@ body {
     margin: 0.5rem;
   }
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title {
-    background-color: #1F1B20;
+    height: 10vh;
     color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background: url(../img/transparent/plane-m.png) center no-repeat;
+    background-color: #1F1B20;
+    background-size: 60%;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title h2, .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title p {
+    min-width: 45vw;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title h2 {
+    text-align: end;
+    color: #FFC773;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title .caption__vl {
+    height: 50%;
+    margin: 0 0.3rem;
+    border-left: 2px solid rgba(255, 199, 115, 0.5);
   }
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer {
     height: 60vh;
     background-color: #1F1B20;
     color: #ffffff;
     padding: 2rem 1rem 0;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer p {
+    text-align: center;
+    padding: 1rem;
   }
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer .mobile-option__list {
     display: -webkit-box;

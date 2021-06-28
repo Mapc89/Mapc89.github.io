@@ -151,6 +151,12 @@
             justify-content: center
             p
                 font-size: 1rem
+        .option-services__block
+            height: 30vh
+            .option-services__title
+                text-align: center
+                p
+                    font-size: 1rem
     .slider-mobile
         .slider-item__advantage //Преимущества
             display: flex
@@ -199,13 +205,32 @@
         .slider-item__option // Дополнительные услуги
             .mobile-option__item
                 .mobile-option__title
-                    background-color: $color-dark
+                    height: 10vh
                     color: $text-color-light
+                    display: flex
+                    flex-direction: row
+                    background: url(../img/transparent/plane-m.png) center no-repeat
+                    background-color: $color-dark
+                    background-size: 60%
+                    text-transform: uppercase
+                    font-size: 0.7rem
+                    h2, p
+                        min-width: 45vw
+                    h2
+                        text-align: end
+                        color: $text-color-active
+                    .caption__vl
+                        height: 50%
+                        margin: 0 0.3rem
+                        border-left: 2px solid rgba(255, 199, 115, 0.5)
                 .mobile-option__offer
                     height: 60vh
                     background-color: $color-dark
                     color: $text-color-light
                     padding: 2rem 1rem 0
+                    p
+                        text-align: center
+                        padding: 1rem
                     .mobile-option__list
                         display: flex
                         .mobile-option__column
