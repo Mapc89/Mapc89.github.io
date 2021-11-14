@@ -204,12 +204,15 @@
                         margin: 0.5rem
         .slider-item__option // Дополнительные услуги
             .mobile-option__item
+                .m-plane__title
+                    background: url(../img/transparent/plane-m.png) center no-repeat
+                .m-author__title
+                    background: url(../img/transparent/author.png) center no-repeat
                 .mobile-option__title
                     height: 10vh
                     color: $text-color-light
                     display: flex
                     flex-direction: row
-                    background: url(../img/transparent/plane-m.png) center no-repeat
                     background-color: $color-dark
                     background-size: 60%
                     text-transform: uppercase
@@ -223,7 +226,7 @@
                         height: 50%
                         margin: 0 0.3rem
                         border-left: 2px solid rgba(255, 199, 115, 0.5)
-                .mobile-option__offer
+                .mobile-option__offer-plane
                     height: 100vh
                     background-color: $color-dark
                     color: $text-color-light
@@ -241,6 +244,23 @@
                         text-align: center
                         padding-top: 1rem
                         line-height: 1.3rem
+                .mobile-option__offer-author
+                    height: 100vh
+                    background-color: $color-dark
+                    color: $text-color-light
+                    padding-left: 1rem
+                    margin-bottom: 2rem
+                    font-size: smaller
+                    h2
+                        text-transform: uppercase
+                        text-align: center
+                    ul
+                        list-style: circle
+                        li
+                            margin: 0.5rem
+                    p
+                        padding-top: 1rem
+                        line-height: 1.2rem
                 .button-active
                     min-width: 100%
     .be-yourself
