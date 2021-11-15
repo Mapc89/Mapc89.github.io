@@ -1799,6 +1799,12 @@ body {
     padding-top: 1rem;
     line-height: 1.2rem;
   }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer-author .price-list__price {
+    padding: 2rem 0;
+  }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer-author .price-list__price span {
+    padding: 0 0.5rem;
+  }
   .slider-mobile .slider-item__option .mobile-option__item .button-active {
     min-width: 100%;
   }
