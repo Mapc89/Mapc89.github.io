@@ -1617,6 +1617,9 @@ body {
     margin: 2rem 2rem;
     font-size: 1rem;
   }
+  .main .instagram__picture {
+    max-width: 100%;
+  }
   .main .instagram__img {
     width: 8rem;
     height: 8rem;
@@ -1825,6 +1828,10 @@ body {
     font-size: 0.8rem;
     padding: 1.5rem 0;
     text-align: center;
+  }
+  .portfolio-m__caption .caption__title h2 {
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
   .footer .menu {
     padding: 1rem 0;
