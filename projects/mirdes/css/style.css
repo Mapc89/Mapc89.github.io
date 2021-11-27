@@ -1627,6 +1627,9 @@ body {
   .main .instagram__img a {
     margin: 1.5rem auto 8rem;
   }
+  .main__connect .connect-title {
+    margin: 0;
+  }
   .main__connect .connect-title h2 {
     font-size: 12px;
   }
@@ -1944,5 +1947,15 @@ body {
   }
   .caption__vl {
     margin: 0 1rem;
+  }
+  .social-block {
+    width: 9rem;
+    margin: 0 1rem 2rem 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .social-block .ok, .social-block .fb, .social-block .vk, .social-block .in {
+    width: 2rem;
+    height: 2rem;
   }
 }
