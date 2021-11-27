@@ -1621,8 +1621,8 @@ body {
     max-width: 100%;
   }
   .main .instagram__img {
-    width: 8rem;
-    height: 8rem;
+    width: 6.8rem;
+    height: 6.8rem;
   }
   .main .instagram__img a {
     margin: 1.5rem auto 8rem;
@@ -1871,8 +1871,8 @@ body {
     text-align: center;
   }
   .portfolio-instagram .instagram__img {
-    width: 8rem;
-    height: 8rem;
+    width: 6.8rem;
+    height: 6.8rem;
     margin: 0.3rem;
   }
   .portfolio-instagram .instagram__img a {
