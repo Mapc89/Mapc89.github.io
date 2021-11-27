@@ -1621,8 +1621,8 @@ body {
     max-width: 100%;
   }
   .main .instagram__img {
-    width: 6.8rem;
-    height: 6.8rem;
+    width: 30vw;
+    height: 30vw;
   }
   .main .instagram__img a {
     margin: 1.5rem auto 8rem;
@@ -1871,8 +1871,8 @@ body {
     text-align: center;
   }
   .portfolio-instagram .instagram__img {
-    width: 6.8rem;
-    height: 6.8rem;
+    width: 30vw;
+    height: 30vw;
     margin: 0.3rem;
   }
   .portfolio-instagram .instagram__img a {
@@ -1927,6 +1927,9 @@ body {
     padding-top: 0.8rem;
     font-size: 0.6rem;
     line-height: 0.8rem;
+  }
+  .request .button-active {
+    width: 90%;
   }
   .caption {
     padding-top: 2rem;
