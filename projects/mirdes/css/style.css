@@ -1833,6 +1833,51 @@ body {
     font-size: 0.8rem;
     line-height: 1rem;
   }
+  .portfolio-instagram {
+    background-color: #1F1B20;
+  }
+  .portfolio-instagram .instagram {
+    margin-bottom: 0;
+  }
+  .portfolio-instagram .instagram .transparent-block {
+    height: 10vh;
+    margin: 0 1rem;
+    background: url(../img/transparent/instagram.png) center no-repeat;
+    background-size: contain;
+  }
+  .portfolio-instagram .instagram__title {
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+    color: #FFC773;
+    letter-spacing: 0.1rem;
+    line-height: 0.8rem;
+  }
+  .portfolio-instagram .instagram__picture {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .portfolio-instagram .instagram .button-active {
+    height: 2.3rem;
+    width: 40vw;
+    margin: 1rem auto 0;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .portfolio-instagram .instagram__img {
+    width: 8rem;
+    height: 8rem;
+    margin: 0.3rem;
+  }
+  .portfolio-instagram .instagram__img a {
+    margin: 1.5rem auto 8rem;
+  }
   .footer .menu {
     padding: 1rem 0;
     padding-bottom: 2rem;

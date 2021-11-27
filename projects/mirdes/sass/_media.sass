@@ -94,12 +94,6 @@
             &:hover
         .logo
     .lorem
-    .footer //Подвал
-        .menu
-        &__text
-            p
-                a
-
     .main //Главная
         &__title
             height: 99vh
@@ -286,7 +280,40 @@
             h2
                 font-size: 0.8rem
                 line-height: 1rem
-    .footer
+    .portfolio-instagram
+        background-color: $color-dark
+        &__block
+        .instagram
+            margin-bottom: 0
+            .transparent-block
+                height: 10vh
+                margin: 0 1rem
+                background: url(../img/transparent/instagram.png) center no-repeat
+                background-size: contain
+            &__title
+                padding-top: 1.5rem
+                font-size: 0.7rem
+                color: $text-color-active
+                letter-spacing: 0.1rem
+                line-height: 0.8rem
+            &__picture
+                max-width: 100%
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+            .button-active
+                height: 2.3rem
+                width: 40vw
+                margin: 1rem auto 0
+                font-size: 0.7rem
+                text-align: center
+            &__img
+                width: 8rem
+                height: 8rem
+                margin: 0.3rem
+                a
+                    margin: 1.5rem auto 8rem
+    .footer //Подвал
         .menu
             padding: 1rem 0
             padding-bottom: 2rem
