@@ -1845,10 +1845,10 @@ body {
   .portfolio-instagram .instagram .transparent-block {
     height: 10vh;
     margin: 0 1rem;
-    background: url(../img/transparent/instagram.png) center no-repeat;
     background-size: contain;
   }
   .portfolio-instagram .instagram__title {
+    background: url(../img/transparent/mironova.png) center no-repeat;
     padding-top: 1.5rem;
     font-size: 0.7rem;
     color: #FFC773;
