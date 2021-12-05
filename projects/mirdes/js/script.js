@@ -4,7 +4,18 @@ window.addEventListener('DOMContentLoaded', () => {
         optionServices = document.querySelector('.option-services'),
         order = document.querySelector('button'),
         overlay = document.querySelector('.overlay'),
-        close = document.querySelector('.popup-close');
+        close = document.querySelector('.popup-close'),
+        btnm = document.querySelector('.btnm'),
+        more = document.querySelector('.more');
+
+    
+    $(function(){
+        $('.btnm').click(function(){
+            console.log('пошло');
+            $('.more').slideToggle(); //происходит двойное нажатие
+        });
+    });
+
 
     //Кнопки Заказать проект
     priceList.addEventListener('click', (event) => {
@@ -48,6 +59,6 @@ window.addEventListener('DOMContentLoaded', () => {
         adaptiveHeight: true
         // autoplay: true,
         // autoplaySpeed: 3000
-    });
+    });    
 });
 

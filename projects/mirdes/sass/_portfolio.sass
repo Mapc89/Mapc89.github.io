@@ -30,20 +30,29 @@
 .portfolio-projects
     .transparent-block
         height: 60vh
+        &__text
+            width: 35rem
+            font-size: 1rem
+            text-transform: uppercase
+            font-weight: 600
     &__block
         background: url(../img/transparent/POJECTS.png) center no-repeat
     &__img
         display: flex
         flex-wrap: wrap
-        justify-content: space-between
+        background-color: $color-dark
         img
-            width: 49vw
-            height: 49vh
-            margin: 0.5rem 0
+            width: 100%
+            margin: 1rem 0
+        .more
+            display: none
     &__more
         display: flex
+        height: 4rem
+        background-color: $color-dark
         justify-content: center
-        a
+        .button-active
+            font-family: 'NobelWGL-Book', sans-serif
             width: 20rem
 .portfolio-form
     .transparent-block
