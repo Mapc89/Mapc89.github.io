@@ -4,18 +4,17 @@ window.addEventListener('DOMContentLoaded', () => {
         optionServices = document.querySelector('.option-services'),
         order = document.querySelector('button'),
         overlay = document.querySelector('.overlay'),
-        close = document.querySelector('.popup-close'),
-        btnm = document.querySelector('.btnm'),
-        more = document.querySelector('.more');
-
+        close = document.querySelector('.popup-close');
     
+
+
     $(function(){
         $('.btnm').click(function(){
             console.log('пошло');
-            $('.more').slideToggle(); //происходит двойное нажатие
+            $('.more').slideToggle(1000); //почему происходит двойное нажатие???
         });
     });
-
+    
 
     //Кнопки Заказать проект
     priceList.addEventListener('click', (event) => {
