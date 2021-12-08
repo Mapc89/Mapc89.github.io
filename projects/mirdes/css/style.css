@@ -1847,6 +1847,13 @@ body {
     font-size: 0.8rem;
     line-height: 1rem;
   }
+  .portfolio-projects .transparent-block {
+    height: 25vh;
+  }
+  .portfolio-projects .transparent-block__text {
+    font-size: 0.8rem;
+    text-align: center;
+  }
   .portfolio-instagram {
     background-color: #1F1B20;
   }
