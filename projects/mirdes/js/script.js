@@ -7,11 +7,11 @@ window.addEventListener('DOMContentLoaded', () => {
         close = document.querySelector('.popup-close');
     
 
-
+    // Раскрыие галереи
     $(function(){
         $('.btnm').click(function(){
-            console.log('пошло');
             $('.more').slideToggle(1000); //почему происходит двойное нажатие???
+            $('.btnm').html($('.btnm').html() == 'скрыть' ? 'смотреть ещё' : 'скрыть'); // меняет надпись в кнопке
             click.stopPropagation(); //Останавливает второе нажатие!!!
         });
     });
