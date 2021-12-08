@@ -1822,6 +1822,9 @@ body {
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer-author .price-list__price span {
     padding: 0 0.5rem;
   }
+  .slider-mobile .slider-item__option .mobile-option__item .mobile-option__offer-author .price-list__price .price__new {
+    font-size: 3rem;
+  }
   .slider-mobile .slider-item__option .mobile-option__item .button-active {
     min-width: 100%;
   }
@@ -1848,6 +1851,12 @@ body {
     line-height: 1rem;
   }
   .portfolio-projects .transparent-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 25vh;
   }
   .portfolio-projects .transparent-block__text {
@@ -1905,7 +1914,7 @@ body {
   }
   .footer .menu__item {
     margin: 0 0.3rem;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .footer__text p {
     font-size: 0.8rem;
