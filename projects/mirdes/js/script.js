@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
         $('.btnm').click(function(){
             console.log('пошло');
             $('.more').slideToggle(1000); //почему происходит двойное нажатие???
+            click.stopPropagation(); //Останавливает второе нажатие!!!
         });
     });
     
