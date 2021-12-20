@@ -1944,6 +1944,13 @@ body {
   .blog-article .blog-article__wrapper {
     max-width: 100vw;
   }
+  .contact-text {
+    height: auto;
+    padding: 1rem 1rem 0;
+  }
+  .contact-social {
+    padding: 5% 0% 0%;
+  }
   .footer .menu {
     padding: 1rem 0;
     padding-bottom: 2rem;
