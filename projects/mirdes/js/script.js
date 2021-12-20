@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
         $('.btnm').click(function(){
             $('.more').slideToggle(1000); //почему происходит двойное нажатие???
             $('.btnm').html($('.btnm').html() == 'скрыть' ? 'смотреть ещё' : 'скрыть'); // меняет надпись в кнопке
-            $(".portfolio-projects__img")[0].scrollIntoView({
+            $(".more")[0].scrollIntoView({
                 behavior: "smooth", // or "auto" or "instant"
             });
             click.stopPropagation(); //Останавливает второе нажатие!!!

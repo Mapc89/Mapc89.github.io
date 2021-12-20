@@ -1908,6 +1908,29 @@ body {
   .portfolio-instagram .instagram__img a {
     margin: 1.5rem auto 8rem;
   }
+  .article-wrapper .article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-bottom: 2rem;
+  }
+  .article-wrapper .article__img, .article-wrapper .article__text {
+    width: auto;
+    height: 20rem;
+  }
+  .article-wrapper .article__img {
+    margin-bottom: 2rem;
+  }
+  .article-wrapper .article__text p {
+    font-size: 1rem;
+  }
+  .article-wrapper .mobile-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .footer .menu {
     padding: 1rem 0;
     padding-bottom: 2rem;
