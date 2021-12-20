@@ -13,29 +13,34 @@
     <header class="header">
         <div class="header__info"></div>
         <nav class="menu">
-            <div class="menu__wrapper_left">
+            <div class="menu__wrapper_left mobile-hide">
                 <a class="menu__item" href="services.html">услуги и цены</a>
-                <a class="menu__item" href="portfolio.html">портфолио</a>
+                <a class="menu__item" href="#">портфолио</a>
             </div>
             <a class="menu__item logo" href="index.html"><img src="img/logo.png" alt=""></a>
-            <div class="menu__wrapper_right">
+            <div class="menu__wrapper_right mobile-hide">
                 <a class="menu__item" href="blog.html">блог</a>
                 <a class="menu__item" href="contacts.html">контакты</a>
-                <a class="menu__item menu-active" href="#">о студии</a>
+                <a class="menu__item menu-active" href="about.html">о студии</a>
             </div>
         </nav>
         <div class="header__info">+7 962 385 20 12</div>
     </header>
     <div class="about">
+        <section class="caption caption-about">
+            <div class="caption__title">
+                <h2>О нашей студии</h2>
+            </div>
+        </section>
         <section class="about-block transparent-block">
-            <div class="vl"></div>
+            <div class="vl mobile-hide"></div>
             <div class="about-block__text transparent-block__text">
-                <p> Мы- молодая , но очень эмоциональная и амбициозная студия. <br> Мы создаем качественные дизайн
+                <p> Мы создаем качественные дизайн
                     проекты
                     для
-                    красивой и комфортной жизни, и очень гордимся этим".</p>
+                    красивой и комфортной жизни, и очень гордимся этим.</p>
             </div>
-            <div class="vl"></div>
+            <div class="vl mobile-hide"></div>
         </section>
         <div class="about__boss">
             <div class="boss-wrapper">
@@ -58,7 +63,7 @@
                     <a href="#" class="fb"></a>
                     <a href="https://vk.com/design_decor_mironova" class="vk"></a>
                     <a href="https://www.instagram.com/design_decor_mironova/" class="in"></a>
-                    <a href="#" class="ok"></a>
+                    <!-- <a href="#" class="ok"></a> -->
                 </div>
             </div>
             
@@ -124,51 +129,70 @@
             </section>
             <a href="portfolio.html" class="button-active">Смотреть портфолио</a>
         </div>
-        <form action="mail.php" method="POST">
-            <div class="caption form-caption">
-                <div class="caption__title">
-                    <h2>Мы перезвоним вам</h2>
-                    <div class="caption__vl"></div>
-                    <p class="form-p">Оставьте заявку и запишитесь на консультацию <br> по вашему будущему интерьеру
-                    </p>
-                </div>
+        <div class="portfolio-form">
+            <div class="transparent-block mobile-hide">
+                <div class="vl"></div>
             </div>
-            <div class="request">
-                <div class="request__data">
-                    <div><label for="">как мы можем к вам обратиться?</label>
-                        <div class="caption__vl"></div><input type="text" name="name" placeholder="ИМЯ" required>
-                    </div>
-                    <div><label for="">ваш номер телефона</label>
-                        <div class="caption__vl"></div><input type="tel" name="phone" placeholder="+7 777 777 77 77"
-                            required>
-                    </div>
-                    <div><label for="">ваша почта</label>
-                        <div class="caption__vl"></div><input type="email" name="email" placeholder="E-MAIL" required>
+            <form action="mail.php" method="POST">
+                <div class="caption form-caption">
+                    <div class="caption__title">
+                        <h2>Оставьте заявку</h2>
+                        <div class="caption__vl"></div>
+                        <p class="form-p">Запишитесь на консультацию <br> по вашему будущему интерьеру
+                        </p>
                     </div>
                 </div>
-                <div class="request__rules"><input type="checkbox" class="checkbox"> <span>нажимая на кнопку вывыражаете
-                        <a href="#">согласие</a> на отправку
-                        персональных
-                        данных</span></div>
-                <button type="submit" class="button-active">отправить</button>
-            </div>
-        </form>
-        <section class="about__connect transparent-block">
-            <div class="vl"></div>
+                <div class="request">
+                    <div class="request__data mobile-hide">
+                        <div><label for="">как мы можем к вам обратиться?</label>
+                            <div class="caption__vl"></div><input type="text" name="name" placeholder="ИМЯ" required>
+                        </div>
+                        <div><label for="">ваш номер телефона</label>
+                            <div class="caption__vl"></div><input type="tel" name="phone" placeholder="+7 777 777 77 77"
+                                required>
+                        </div>
+                        <div><label for="">ваша почта</label>
+                            <div class="caption__vl"></div><input type="email" name="email" placeholder="E-MAIL" required>
+                        </div>
+                    </div>
+                    <div class="request__data mobile-only">
+                        <div><input type="text" name="name" placeholder="как вас зовут?" required>
+                        </div>
+                        <div><input type="tel" name="phone" placeholder="ваш номер телефона"
+                                required>
+                        </div>
+                        <div><input type="email" name="email" placeholder="E-MAIL" required>
+                        </div>
+                    </div>
+                    <div class="request__rules">
+                        <input type="checkbox" class="checkbox" id="rules">
+                        <label for="rules">нажимая на кнопку вывыражаете
+                            <a href="#">согласие</a> 
+                            на отправку
+                            персональных
+                            данных
+                        </label>
+                    </div>
+                    <button type="submit" class="button-active">отправить</button>
+                </div>
+            </form>
+        </div>
+        <section class="main__connect transparent-block">
+            <div class="vl mobile-hide"></div>
             <div class="connect-title">
-                <h2>Мы создадим дизайн с твоим характером</h2>
+                <h2>Создаём дизайн с твоим характером</h2>
             </div>
             <div class="connect-text">
                 <p>Заказать проект:<br><strong>dmartburo@gmail.com</strong></p>
                 <p>телефон whatsupp:<br><strong>+7 962 385 20 12</strong></p>
             </div>
-            <div class="vl"></div>
             <div class="social-block">
                 <a href="#" class="fb"></a>
                 <a href="https://vk.com/design_decor_mironova" class="vk"></a>
                 <a href="https://www.instagram.com/design_decor_mironova/" class="in"></a>
-                <a href="#" class="ok"></a>
+                <!-- <a href="#" class="ok"></a> -->
             </div>
+            <div class="vl mobile-hide"></div>
         </section>
     </div>
     <footer class="footer">
