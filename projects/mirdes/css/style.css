@@ -890,6 +890,11 @@ body {
   padding: 0 15% 5%;
 }
 
+.about .caption-about .caption__title h2 {
+  width: 100%;
+  text-align: center;
+}
+
 .about .about-block {
   background: url(../img/transparent/about.png) center no-repeat;
   height: 92vh;
@@ -934,7 +939,8 @@ body {
 }
 
 .about__princips .button-active {
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  width: 25%;
 }
 
 .about__boss {
