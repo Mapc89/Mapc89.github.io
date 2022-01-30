@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     
 
     //Кнопки Заказать проект
-    priceList.addEventListener('click', (event) => {
+    priceList.addEventListener ('click', (event) => {
         console.log('1');
         let target = event.target;
         if (target.className == 'button-active order') {
@@ -60,9 +60,14 @@ window.addEventListener('DOMContentLoaded', () => {
     $('.slider-mobile').slick({
         arrows: false,
         infinite: true,
-        adaptiveHeight: true
-        // autoplay: true,
-        // autoplaySpeed: 3000
-    });    
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 3000
+    });   
+    $('.slider-portfolio').slick();  
+    $('.test-slider').slick(); 
+    console.log($('.test-slider').length);
+
+    new Swiper ('.test-slider');
 });
 

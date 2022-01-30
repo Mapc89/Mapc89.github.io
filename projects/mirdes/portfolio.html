@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Портфолио</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -44,14 +45,26 @@
                 </div>
                 <div class="vl mobile-hide"></div>
             </div>
+            <!-- Проекты. Список с слайдерами -->
             <div class="portfolio-projects__img">
                 <img src="./img/port1.png" alt="проект">
                 <div class="more">
-                <img src="./img/main-title.png" alt="проект">
-                <img src="./img/services.png" alt="проект">
-                <img src="./img/port1.png" alt="проект">
-                <img src="./img/main-title.png" alt="проект">
-                <img src="./img/services.png" alt="проект">
+                <div class="slider-portfolio">
+                    <div class="slider-item__portfolio">
+                        <img src="./img/main-title.png" alt="проект">
+                    </div>
+                    <div class="slider-item__portfolio">
+                        <img src="./img/services.png" alt="проект">
+                    </div>
+                    <div class="slider-item__portfolio">
+                        <img src="./img/port1.png" alt="проект">
+                    </div>    
+                </div>
+                <div class="slider-mobile">
+                    <img src="./img/main-title.png" alt="проект">
+                    <img src="./img/services.png" alt="проект">
+                    <img src="./img/port1.png" alt="проект">
+                    </div>
                 </div>
             </div>
             <div class="portfolio-projects__more">
@@ -59,7 +72,8 @@
             </div>
         </div>
     </section>   
-    <div class="portfolio-instagram">
+    <!-- Пока скрыл инстаграм -->
+    <!-- <div class="portfolio-instagram">
         <div class="portfolio-instagram__block transparent-block mobile-hide">
             <div class="vl mobile-hide"></div>
             <div class="portfolio-instagram__title transparent-block__text">
@@ -90,8 +104,9 @@
             </div>
             <a href="https://www.instagram.com/design_decor_mironova/" class="button-active">Перейти в instagram</a>
         </section>
-    </div>
-    <div class="portfolio-form">
+    </div> -->
+    <!-- Форма заявки -->
+    <!-- <div class="portfolio-form">
         <div class="transparent-block mobile-hide">
             <div class="vl"></div>
         </div>
@@ -138,7 +153,7 @@
                 <button type="submit" class="button-active">отправить</button>
             </div>
         </form>
-    </div>
+    </div> -->
     <section class="main__connect transparent-block">
         <div class="vl mobile-hide"></div>
         <div class="connect-title">
@@ -156,6 +171,14 @@
         </div>
         <div class="vl mobile-hide"></div>
     </section>
+    
+    <div class="slider-wrapper">
+        <div class=".slider-mobile">
+            <div class="slider-item__advantage"><img src="./img/fox.jpg" alt=""></div>
+            <div class="slider-item__advantage"><img src="./img/graybg.png" alt=""></div>
+            <div class="slider-item__advantage"><img src="./img/fox.jpg" alt=""></div>
+        </div>
+    </div>
     <footer class="footer">
         <nav class="menu">
             <a class="menu__item" href="services.html">услуги и цены</a>
@@ -169,12 +192,10 @@
             <p>2013-2020 год все права защищены.</p>
             <p>Сайт создан <a href="http://mars-portfolio.ga/">Mars.Inc</a></p>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-        <script src="js/script.js"></script>
     </footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
 </body>
 
 </html>

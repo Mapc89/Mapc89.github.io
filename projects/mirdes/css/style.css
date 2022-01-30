@@ -2068,4 +2068,10 @@ body {
     width: 2rem;
     height: 2rem;
   }
+  .slider-portfolio {
+    width: 420px;
+  }
+  .slider-portfolio .slider-item__fox {
+    width: 100%;
+  }
 }
