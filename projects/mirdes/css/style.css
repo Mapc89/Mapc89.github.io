@@ -1915,6 +1915,18 @@ body {
     font-size: 0.8rem;
     text-align: center;
   }
+  .portfolio-cover {
+    height: 25vh;
+  }
+  .portfolio-cover__text {
+    padding: 0;
+  }
+  .portfolio-cover__text h2 {
+    font-size: 1.5rem;
+  }
+  .portfolio-cover__text p {
+    font-size: 0.7rem;
+  }
   .portfolio-instagram {
     background-color: #1F1B20;
   }
