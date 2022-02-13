@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
             behavior: "smooth", // or "auto" or "instant"
             });
 
-            
+
             // $('.more').slideToggle(1000); 
             // $('.btnm').html($('.btnm').html() == 'скрыть' ? 'смотреть проект' : 'скрыть'); // меняет надпись в кнопке
             // $(".more")[0].scrollIntoView({
@@ -19,17 +19,6 @@ window.addEventListener('DOMContentLoaded', () => {
             // click.stopPropagation(); //Останавливает второе нажатие!!!(но может оно и не надо)
         });
     });
-
-
-
-
-
-
-
-
-
-
-
     $('.slider-mobile').slick({
         arrows: false,
         infinite: true,
