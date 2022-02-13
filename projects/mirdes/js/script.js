@@ -1,62 +1,34 @@
 window.addEventListener('DOMContentLoaded', () => {
-    //Модальное окно
-    let priceList = document.querySelector('.price-list'),
-        optionServices = document.querySelector('.option-services'),
-        order = document.querySelector('button'),
-        overlay = document.querySelector('.overlay'),
-        more = document.querySelector('.more'),
-        close = document.querySelector('.popup-close');
-    
-
     // Раскрыие галереи
     $(function(){
         $('.btnm').click(function(){
-            $('.more').slideToggle(1000); //почему происходит двойное нажатие???
-            $('.btnm').html($('.btnm').html() == 'скрыть' ? 'смотреть ещё' : 'скрыть'); // меняет надпись в кнопке
-            $(".more")[0].scrollIntoView({
-                behavior: "smooth", // or "auto" or "instant"
+            let id = this.id;
+            console.log(id);
+            let test = document.getElementsByClassName(id);
+            console.log(test);
+            $(test).slideToggle(1000); 
+            $(test)[0].scrollIntoView({
+            behavior: "smooth", // or "auto" or "instant"
             });
-            click.stopPropagation(); //Останавливает второе нажатие!!!
+            // $('.more').slideToggle(1000); 
+            // $('.btnm').html($('.btnm').html() == 'скрыть' ? 'смотреть ещё' : 'скрыть'); // меняет надпись в кнопке
+            // $(".more")[0].scrollIntoView({
+            //     behavior: "smooth", // or "auto" or "instant"
+            // });
+            // click.stopPropagation(); //Останавливает второе нажатие!!!(но может оно и не надо)
         });
     });
-    
 
-    //Кнопки Заказать проект
-    priceList.addEventListener ('click', (event) => {
-        console.log('1');
-        let target = event.target;
-        if (target.className == 'button-active order') {
-            console.log('2');
-            console.log(order);
-            overlay.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-            priceList.style.paddingRight = '17px';
-            optionServices.style.paddingRight = '17px';
-        } else {
-            console.log('0');            
-        }
-    });
-    //Заказать услугу
-    optionServices.addEventListener('click', (event) => {
-        console.log('1');
-        let target = event.target;
-        if (target.className == 'button-active order') {
-            console.log('2');
-            console.log(order);
-            overlay.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-            priceList.style.paddingRight = '17px';
-            optionServices.style.paddingRight = '17px';
-        } else {
-            console.log('0');            
-        }
-    });
-    close.addEventListener('click', function () {
-        overlay.style.display = 'none';
-        document.body.style.overflow = '';
-        priceList.style.paddingRight = '';
-        optionServices.style.paddingRight = '';
-    });
+
+
+
+
+
+
+
+
+
+
     $('.slider-mobile').slick({
         arrows: false,
         infinite: true,
@@ -65,9 +37,5 @@ window.addEventListener('DOMContentLoaded', () => {
         autoplaySpeed: 3000
     });   
     $('.slider-portfolio').slick();  
-    $('.test-slider').slick(); 
-    console.log($('.test-slider').length);
-
-    new Swiper ('.test-slider');
 });
 
