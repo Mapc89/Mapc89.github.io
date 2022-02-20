@@ -35,29 +35,28 @@
         .slick-dots
             display: flex
             justify-content: center
-            margin-top: 0.8rem
+            margin: 0.8rem auto
             li
                 list-style: none
                 margin: 0 0.3rem
+                padding: 0
+                cursor: pointer
             button
                 font-size: 0
-                width: 0.8rem
-                height: 0.8rem
+                width: 0.7rem
+                height: 0.7rem
+                padding: 0
                 background-color: $color-dark
                 border-radius: 50%
+                border: none
             li.slick-active
                 button
-                    background-color: $color-active
+                    background-color: $text-color-active
+    .main__portfolio
+        a
+            max-width: 30rem
+            margin: 0 auto
     .instagram
-                // font-size: 0
-                // line-height: 0
-                // display: block
-                // padding: 0
-                // cursor: pointer
-                // color: transparent
-                // border: 0
-                // border-radius: 50%
-                // outline: none
         &__title
             height: 16vh
             max-width: 65%
