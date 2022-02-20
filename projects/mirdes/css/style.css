@@ -350,7 +350,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   background-color: #000000;
 }
 
@@ -388,6 +388,94 @@ body {
   height: 1rem;
   bottom: 5rem;
   line-height: 3rem;
+}
+
+.main__steps-title {
+  background-color: #000000;
+}
+
+.main__steps-title h2 {
+  color: #FFC773;
+  font-size: 6rem;
+  padding: 3rem 6rem 1rem;
+}
+
+.main__steps-title h3 {
+  color: #ffffff;
+  font-size: 6rem;
+  text-align: end;
+  padding-right: 6rem;
+  padding-bottom: 3rem;
+}
+
+.main__steps-wrapper {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 92vh;
+  background: url(../img/main/main__steps/steps-img.png) center no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  width: 100%;
+}
+
+.main__steps-wrapper.dark-bg::before {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.main__steps-item_1, .main__steps-item_2, .main__steps-item_3, .main__steps-item_4 {
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5rem;
+  padding-left: 13rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__steps-item_1 h2, .main__steps-item_2 h2, .main__steps-item_3 h2, .main__steps-item_4 h2 {
+  font-size: 1.7rem;
+}
+
+.main__steps-item_1 p, .main__steps-item_2 p, .main__steps-item_3 p, .main__steps-item_4 p {
+  text-transform: initial;
+  font-size: 1.2rem;
+}
+
+.main__steps-item_1 {
+  background: url(../img/main/main__steps/step-1.png) left no-repeat;
+  margin-left: 7rem;
+  padding-left: 11rem;
+  color: #FFC773;
+}
+
+.main__steps-item_2 {
+  background: url(../img/main/main__steps/step-2.png) left no-repeat;
+}
+
+.main__steps-item_3 {
+  background: url(../img/main/main__steps/step-3.png) left no-repeat;
+}
+
+.main__steps-item_4 {
+  background: url(../img/main/main__steps/step-4.png) left no-repeat;
 }
 
 .main__connect .connect-title {
