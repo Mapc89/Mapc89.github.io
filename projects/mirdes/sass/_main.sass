@@ -11,9 +11,9 @@
         text-transform: uppercase
         letter-spacing: 0.05em
         &_acitve
-            max-width: 41rem
+            // max-width: 41rem
             margin: 0 auto 10vh
-            font-size: 42px
+            font-size: 3rem
             color: $text-color-active
             line-height: 3rem
         &_small
@@ -52,10 +52,30 @@
             li.slick-active
                 button
                     background-color: $text-color-active
-    .main__portfolio
+    &__portfolio
         a
             max-width: 30rem
             margin: 0 auto
+    &__projects
+        &-title
+            max-width: 62vw
+            margin: 0 auto 4rem
+            font-size: 3rem
+            color: $text-color-dark
+            font-weight: 600
+            text-transform: uppercase
+        &-image
+            display: flex
+            flex-wrap: wrap
+            width: 60vw
+            height: 80vh
+            margin: 0 auto
+            .main__projects-pic
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 25%
+                // outline: 1px solid black
     .instagram
         &__title
             height: 16vh

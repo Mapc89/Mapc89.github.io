@@ -197,9 +197,8 @@ body {
 }
 
 .main__title_acitve {
-  max-width: 41rem;
   margin: 0 auto 10vh;
-  font-size: 42px;
+  font-size: 3rem;
   color: #FFC773;
   line-height: 3rem;
 }
@@ -266,9 +265,42 @@ body {
   background-color: #FFC773;
 }
 
-.main .main__portfolio a {
+.main__portfolio a {
   max-width: 30rem;
   margin: 0 auto;
+}
+
+.main__projects-title {
+  max-width: 62vw;
+  margin: 0 auto 4rem;
+  font-size: 3rem;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main__projects-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.main__projects-image .main__projects-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
 }
 
 .main .instagram__title {
