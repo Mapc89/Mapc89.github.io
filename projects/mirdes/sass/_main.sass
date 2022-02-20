@@ -3,7 +3,7 @@
     &__title
         display: flex
         flex-direction: column
-        justify-content: center
+        justify-content: space-evenly
         height: 92vh
         background: url(../img/main-title.png) center no-repeat
         background-size: cover
@@ -18,17 +18,46 @@
             line-height: 3rem
         &_small
             font-size: 24px
-            line-height: 2rem
+            line-height: 4rem
             max-width: 37rem
-            margin: 0 auto 
+            margin: 0 auto
             color: $text-color-light
     &__about
         background: url(../img/transparent/about.png) center no-repeat
-    &__img
+    &__slider
         display: flex
         justify-content: center
+        flex-direction: column
         margin: 0 auto
+        &-img
+            display: block
+            margin: 0 15rem
+        .slick-dots
+            display: flex
+            justify-content: center
+            margin-top: 0.8rem
+            li
+                list-style: none
+                margin: 0 0.3rem
+            button
+                font-size: 0
+                width: 0.8rem
+                height: 0.8rem
+                background-color: $color-dark
+                border-radius: 50%
+            li.slick-active
+                button
+                    background-color: $color-active
     .instagram
+                // font-size: 0
+                // line-height: 0
+                // display: block
+                // padding: 0
+                // cursor: pointer
+                // color: transparent
+                // border: 0
+                // border-radius: 50%
+                // outline: none
         &__title
             height: 16vh
             max-width: 65%
@@ -47,9 +76,9 @@
             background-color: #c4c4c4
             margin: 0.5rem
             text-align: center
-            img 
+            img
                 max-height: 100%
-        a 
+        a
             max-width: 30rem
             margin: 1.5rem auto 8rem
     &__connect
@@ -60,11 +89,11 @@
             justify-content: center
             align-items: center
             margin: 5vh auto
-            letter-spacing: 0.08em 
+            letter-spacing: 0.08em
             line-height: 24px
             background: url(../img/transparent/connect.png) center no-repeat
             background-size: contain
-            h2 
+            h2
                 text-transform: uppercase
                 font-family: 'NobelWGL'
                 font-size: 24px
@@ -74,7 +103,7 @@
             display: flex
             width: 80%
             justify-content: space-evenly
-            p 
+            p
                 text-transform: uppercase
                 font-family: 'NobelWGL'
                 font-size: 24px

@@ -27,5 +27,12 @@ window.addEventListener('DOMContentLoaded', () => {
         autoplaySpeed: 3000
     });   
     $('.slider-portfolio').slick();  
+    $('.main__slider').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+    });  
 });
 
