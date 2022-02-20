@@ -100,6 +100,40 @@
         a
             max-width: 30rem
             margin: 1.5rem auto 8rem
+    &__boss
+        position: relative
+        display: flex
+        justify-content: center
+        width: 100%
+        height: 85vh
+        background-color: $text-color-dark
+        h2
+            color: $text-color-active
+            font-size: 3rem
+        p
+            color: $text-color-active
+            font-size: 1.2rem
+        &-img
+            background: url(../img/main/main-boss.png) right no-repeat
+            background-size: cover
+            background-position-y: inherit
+            width: 50%
+            // text-align: end      Если нужно вернуть img
+            img
+                // height: 100%     Если нужно вернуть img     
+        &-text
+            width: 50%
+            padding: 5rem 5rem 0 0
+            text-align: end
+            p
+                color: $text-color-light
+                font-size: 1.7rem
+                margin-bottom: 2rem
+        &-subtitle
+            position: absolute
+            height: 1rem
+            bottom: 5rem
+            line-height: 3rem
     &__connect
         .connect-title
             height: 10rem
