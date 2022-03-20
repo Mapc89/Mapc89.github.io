@@ -478,6 +478,212 @@ body {
   background: url(../img/main/main__steps/step-4.png) left no-repeat;
 }
 
+.main__advantages .m-advantages__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 18vh;
+  margin-bottom: 4rem;
+  background: url(../img/main/advantages/ADVANTAGES.png) center no-repeat;
+}
+
+.main__advantages .m-advantages__title h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main__advantages .m-advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70rem;
+}
+
+.main__advantages .m-advantages__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 19vw;
+  margin-right: 0.5rem;
+}
+
+.main__advantages .m-advantages__left .specialists {
+  background: url(../img/main/advantages/specialists.jpg) center no-repeat;
+  height: 50%;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.main__advantages .m-advantages__left .specialists h2 {
+  color: #FFC773;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main__advantages .m-advantages__left .specialists p {
+  color: #ffffff;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.main__advantages .m-advantages__left .dark-bg::before {
+  border-radius: 2rem;
+}
+
+.main__advantages .m-advantages__left .builders {
+  background: url(../img/main/advantages/builders.jpg) center no-repeat;
+  height: 50%;
+  padding: 1rem;
+  color: #000000;
+  border-radius: 2rem;
+}
+
+.main__advantages .m-advantages__left .builders h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main__advantages .m-advantages__left .builders p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.main__advantages .m-advantages__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40vw;
+}
+
+.main__advantages .m-advantages__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 38%;
+}
+
+.main__advantages .m-advantages__top .budget {
+  background: url(../img/main/advantages/budget.jpg) bottom no-repeat;
+  background-position-x: right;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.main__advantages .m-advantages__top .budget h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main__advantages .m-advantages__top .budget p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.main__advantages .m-advantages__top .realizability {
+  background: url(../img/main/advantages/realizability.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.main__advantages .m-advantages__top .realizability h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main__advantages .m-advantages__top .realizability p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.main__advantages .m-advantages__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 62%;
+}
+
+.main__advantages .m-advantages__bottom .approach {
+  background: url(../img/main/advantages/approach.jpg) right no-repeat;
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.main__advantages .m-advantages__bottom .approach h2 {
+  font-size: 2rem;
+  margin: 2.5rem 0 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main__advantages .m-advantages__bottom .approach p {
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.main__advantages .m-advantages__bottom .approach p span {
+  color: #FFC773;
+}
+
+.main__advantages .m-advantages__bottom .supervision {
+  background: url(../img/main/advantages/supervision.jpg) center no-repeat;
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: #ffffff;
+}
+
+.main__advantages .m-advantages__bottom .supervision h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main__advantages .m-advantages__bottom .supervision p {
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main__advantages .m-advantages__bottom .supervision p span {
+  color: #FFC773;
+}
+
 .main__connect .connect-title {
   height: 10rem;
   width: 60%;
