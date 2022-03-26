@@ -313,6 +313,55 @@
                         margin-bottom: 0.5rem
                         span
                             color: $text-color-active
+    // Услуги и цены
+    &__price
+        .transparent-block
+            height: 18vh
+            justify-content: center
+        &-title
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100%
+            margin-bottom: 4rem
+            background: url(../img/main/main__price/PRICE.png) center no-repeat
+            text-transform: uppercase
+            font-size: 3rem
+            font-weight: bold
+        &-wrapper
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+            width: 90vw
+            margin: 0 auto
+            .price-color__yellow
+                background: #FFC773
+                box-shadow: inset 0px 0px 25px rgba(0,0,0,0.5)
+            .price-color__black
+                background: #1F1B20
+                h2,p
+                    color: $text-color-light
+            .price-color__gray
+                background: #E5E5E5
+                box-shadow: inset 0px 0px 25px rgba(0,0,0,0.5)
+        &-item
+            width: 37rem
+            height: 27rem
+            margin: 0.5rem 0.7rem
+            padding: 0 2rem
+            border-radius: 2rem
+            h2
+                font-size: 2rem
+                margin: 2rem 0 3rem
+                text-transform: uppercase
+                font-weight: bold
+                line-height: 2.5rem
+            p
+                line-height: 1.5rem
+                margin-bottom: 1rem
+    a
+        width: 25rem
+        margin: 2rem auto
     &__connect
         .connect-title
             height: 10rem
