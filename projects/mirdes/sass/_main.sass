@@ -362,6 +362,42 @@
     a
         width: 25rem
         margin: 2rem auto
+    // Создадим проект вместе
+    &__application
+        display: flex
+        flex-direction: column
+        height: 38rem
+        background: #0E0E0E
+        color: $text-color-light
+        .application-title
+            width: 100%
+            height: 18vh
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 4rem 0
+            background: url(../img/main/main__application/APPLICATION.png) center no-repeat
+            h2
+                font-size: 2rem
+                text-transform: uppercase
+        .application-text
+            margin-bottom: 1rem
+            .application-top
+                margin-bottom: 3rem
+            p
+                margin-left: 20vw
+                margin-bottom: 2rem
+                span
+                    color: $text-color-active
+                img
+                    height: 3rem
+        .application-messengers
+            display: flex
+            justify-content: center
+            a
+                width: auto
+                display: block
+                margin: 0 5rem
     &__connect
         .connect-title
             height: 10rem

@@ -768,6 +768,76 @@ body {
   margin: 2rem auto;
 }
 
+.main__application {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 38rem;
+  background: #0E0E0E;
+  color: #ffffff;
+}
+
+.main__application .application-title {
+  width: 100%;
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4rem 0;
+  background: url(../img/main/main__application/APPLICATION.png) center no-repeat;
+}
+
+.main__application .application-title h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.main__application .application-text {
+  margin-bottom: 1rem;
+}
+
+.main__application .application-text .application-top {
+  margin-bottom: 3rem;
+}
+
+.main__application .application-text p {
+  margin-left: 20vw;
+  margin-bottom: 2rem;
+}
+
+.main__application .application-text p span {
+  color: #FFC773;
+}
+
+.main__application .application-text p img {
+  height: 3rem;
+}
+
+.main__application .application-messengers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__application .application-messengers a {
+  width: auto;
+  display: block;
+  margin: 0 5rem;
+}
+
 .main__connect .connect-title {
   height: 10rem;
   width: 60%;
