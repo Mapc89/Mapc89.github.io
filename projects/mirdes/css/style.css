@@ -2267,6 +2267,9 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  body {
+    max-width: 420px;
+  }
   .header {
     padding-top: 3vh;
   }
@@ -2312,12 +2315,96 @@ body {
   .main__connect .connect-title {
     margin: 0;
   }
-  .main__connect .connect-title h2 {
+  .main__connect .connect-title h2, .main__connect .connect-title h3 {
     font-size: 12px;
   }
   .main__connect .connect-text p {
     line-height: 1.5rem;
     font-size: 1.3rem;
+  }
+  .main__steps {
+    background: #1F1B20;
+  }
+  .main__steps-title {
+    background: #1F1B20;
+  }
+  .main__steps-title h2, .main__steps-title h3 {
+    font-size: 1.2rem;
+  }
+  .main__steps-title h2 {
+    padding: 0.5rem 1rem;
+  }
+  .main__steps-title h3 {
+    padding: 0 1rem 0.5rem;
+  }
+  .main__steps .main__slider {
+    background: url(../img/main/main__steps/steps-img.png) center no-repeat;
+  }
+  .main__steps .main__slider h2 {
+    color: #FFC773;
+  }
+  .main__steps .main__slider p {
+    color: #ffffff;
+  }
+  .main__steps .main__slider .slick-dots {
+    padding: 0.5rem;
+  }
+  .main__steps .main__slider .slider-item {
+    width: 420px;
+    height: 35rem;
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .main__steps .main__slider.dark-bg::before {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .main__steps-social {
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: right;
+  }
+  .main__steps-social h2 {
+    text-transform: uppercase;
+    color: #FFC773;
+    padding-bottom: 0.5rem;
+  }
+  .main__steps-social a {
+    display: inline-block;
+    width: 2rem;
+    margin: 0 0 0 1rem;
+  }
+  .main__steps-social a img {
+    width: 100%;
+  }
+  .main__steps-item_1, .main__steps-item_2, .main__steps-item_3, .main__steps-item_4 {
+    margin: 3rem 0;
+    padding-left: 7rem;
+    height: 6rem;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .main__steps-item_1 h2, .main__steps-item_2 h2, .main__steps-item_3 h2, .main__steps-item_4 h2 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+  }
+  .main__steps-item_1 p, .main__steps-item_2 p, .main__steps-item_3 p, .main__steps-item_4 p {
+    font-size: 0.9rem;
+    line-height: 1.1;
   }
   .services-img {
     height: 50vh;
