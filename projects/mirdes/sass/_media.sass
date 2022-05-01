@@ -111,6 +111,25 @@
             p
                 a
 @media only screen and (max-width: 420px) //Мой телефон 360
+    //Интерфейс
+    // Блок с прозрачной надписью и вертикалями
+    .transparent-block
+        height: 70vh
+        padding: 0.5rem
+        &__text
+            h2
+            p
+    .vl
+        border-left: 1px solid rgba(50, 50, 50, 0.5)
+        height: 15vh
+        display: none
+    .vl-mobile
+        display: block
+        width: 1px
+        height: 7vh
+        margin: 2rem auto
+        color: black
+        background-color: black
     body
     .header // Шапка
         height: 7rem
@@ -163,13 +182,18 @@
                 font-size: 1rem
                 line-height: 3rem
         &__about
+            background-position: top
+            height: 55vh
             .transparent-block
                 padding: 0.5rem
                 &__text
+                    margin: 0 auto
                     h2
-                        font-size: 1.1rem
+                        font-size: 0.8rem
+                        margin: 0 auto
+                        text-align: center
                     p
-                        padding-bottom: 1.1rem
+                        margin-top: 1rem
                         font-size: 1rem
                         line-height: 1.3
         &__img
@@ -687,18 +711,6 @@
             p
                 font-size: 0.8rem
                 a
-
-    //Интерфейс
-    // Блок с прозрачной надписью и вертикалями
-    .transparent-block
-        height: 70vh
-        padding: 0.5rem
-        &__text
-            h2
-            p
-    .vl
-        border-left: 1px solid rgba(50, 50, 50, 0.5)
-        height: 15vh
 
     // Форма
     .form-caption
