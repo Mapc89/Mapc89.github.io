@@ -82,9 +82,8 @@
         &__text
             p
                 a
-@media only screen and (max-width: 420px)
+@media only screen and (max-width: 420px) //Мой телефон 360
     body
-        max-width: 420px
     .header // Шапка
         padding-top: 3vh
         &__info
@@ -116,10 +115,17 @@
                         font-size: 1rem
                         line-height: 1.3
         &__img
+        &__portfolio
+            .main__slider
+                &-img
+                    max-height: 15rem
+                    img
+                        max-height: 15rem
         .instagram
             margin-bottom: 0
             a
-                margin: 2rem 2rem
+                width: 100%
+                margin: 2rem 0rem
                 font-size: 1rem
             &__title
             &__picture
@@ -186,14 +192,15 @@
         &__steps-item_1,&__steps-item_2,&__steps-item_3,&__steps-item_4
             margin: 3rem 0
             padding-left: 7rem
-            height: 6rem
+            height: 4rem
             background-size: contain
+            background-position-x: 1.1rem
             display: flex
             justify-content: start
             h2
                 font-size: 1rem
                 margin-bottom: 1.5rem
-                margin-top: 3rem
+                margin-top: 2rem
             p
                 font-size: 0.9rem
                 line-height: 1.1
