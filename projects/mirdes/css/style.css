@@ -3124,8 +3124,7 @@ body {
     width: 90%;
   }
   .caption {
-    padding-top: 2rem;
-    height: 17vh;
+    height: 10vh;
   }
   .caption__title h2 {
     font-size: 1rem;
