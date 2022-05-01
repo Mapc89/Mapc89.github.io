@@ -2364,11 +2364,14 @@ body {
   }
   .main__title {
     height: 60vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .main__title_acitve {
     font-size: 1.5rem;
     line-height: 2.1rem;
-    margin: 2rem auto;
+    margin: 3rem auto;
   }
   .main__title_small {
     opacity: 0.9;
