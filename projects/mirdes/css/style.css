@@ -2217,6 +2217,52 @@ body {
   .mobile-only {
     display: block;
   }
+  .header {
+    height: 10rem;
+  }
+  .header-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-mobile__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-bottom: 1.5rem;
+  }
+  .header-mobile__logo a {
+    display: block;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFC773;
+  }
+  .header-mobile__logo .header-empty {
+    width: 10rem;
+  }
+  .header-mobile__logo .mobile-tel {
+    font-size: 1.3rem;
+  }
+  .header-mobile__menu .menu a {
+    font-size: 0.8rem;
+  }
   .main__title_acitve {
     margin: 0 auto 15vh;
   }
@@ -2268,18 +2314,66 @@ body {
 
 @media only screen and (max-width: 420px) {
   .header {
-    padding-top: 3vh;
+    height: 7rem;
+  }
+  .header-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-mobile__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  .header-mobile__logo img {
+    width: 3rem;
+  }
+  .header-mobile__logo a {
+    display: block;
+    width: 6rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFC773;
+  }
+  .header-mobile__logo .header-empty {
+    width: 6rem;
+  }
+  .header-mobile__logo .mobile-tel {
+    font-size: 0.7rem;
+  }
+  .header-mobile__menu .menu a {
+    font-size: 0.6rem;
   }
   .main__title {
-    height: 99vh;
+    height: 60vh;
   }
   .main__title_acitve {
     font-size: 1.5rem;
     line-height: 2.1rem;
+    margin: 2rem auto;
   }
   .main__title_small {
     opacity: 0.9;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 3rem;
   }
   .main__about .transparent-block {
     padding: 0.5rem;

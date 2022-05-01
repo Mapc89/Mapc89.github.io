@@ -12,28 +12,50 @@
 
 <body>
     <header class="header">
-        <div class="header__info"></div>
-        <nav class="menu">
-            <div class="menu__wrapper_left mobile-hide">
+        <div class="header__info mobile-hide"></div>
+        <nav class="menu mobile-hide">
+            <div class="menu__wrapper_left">
                 <a class="menu__item" href="services.html">услуги и цены</a>
                 <a class="menu__item" href="portfolio.html">портфолио</a>
             </div>
             <a class="menu__item logo" href="#"><img src="img/logo.png" alt="логотип"></a>
-            <div class="menu__wrapper_right mobile-hide">
+            <div class="menu__wrapper_right">
                 <a class="menu__item" href="blog.html">блог</a>
                 <a class="menu__item" href="contacts.html">контакты</a>
                 <a class="menu__item" href="about.html">о студии</a>
             </div>
         </nav>
-        <div class="header__info">+7 962 385 20 12</div>
+        <div class="header__info mobile-hide">+7 962 385 20 12</div>
+        <div class="header-mobile mobile-only">
+            <div class="header-mobile__logo">
+                <div class="header-empty"></div>
+                <a class="mobile__logo" href="#"><img src="img/logo.png" alt="логотип"></a>
+                <a class="mobile-tel" href="tel:+79623852012">+7 962 385 20 12</a>
+            </div>
+            <div class="header-mobile__menu">
+                <nav class="menu">
+                    <a class="menu__item" href="services.html">услуги и цены</a>
+                    <a class="menu__item" href="portfolio.html">портфолио</a>
+                    <a class="menu__item" href="blog.html">блог</a>
+                    <a class="menu__item" href="contacts.html">контакты</a>
+                    <a class="menu__item" href="about.html">о студии</a>
+                </nav>
+            </div>
+        </div>
     </header>
     <div class="main">
         <!-- Титульный лист -->
         <section class="main__title dark-bg">
-            <h1 class="main__title_acitve">ДИЗАЙН ИНТЕРЬЕРА В ЛЮБОЙ ТОЧКЕ <br> МИРА </h1>
+            <h1 class="main__title_acitve mobile-hide">ДИЗАЙН ИНТЕРЬЕРА В ЛЮБОЙ ТОЧКЕ <br> МИРА </h1>
+            <h1 class="main__title_acitve mobile-only">ДИЗАЙН ИНТЕРЬЕРА <br> В ЛЮБОЙ ТОЧКЕ <br> МИРА </h1>
             <h2 class="main__title_small">
                 С ВНИМАНИЕМ К ДЕТАЛЯМ И КОМФОРТУ. 
                 <br> С ЛЮБОВЬЮ К СВОЕМУ ДЕЛУ.<br> ОТ ИДЕИ ДО ЗАПУСКА КОТА.</h2>
+                <div class="main__steps-social mobile-only">
+                    <h2>Обсудить условия</h2>
+                    <a href="#"><img src="img/main/main__application/whatsapp.svg" alt=""></a>
+                    <a href="#"><img src="img/main/main__application/telegramm.svg" alt=""></a>
+                </div>
         </section>
         <!-- О нас -->
         <section class="main__about transparent-block">

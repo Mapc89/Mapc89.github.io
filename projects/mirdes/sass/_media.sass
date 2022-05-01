@@ -15,6 +15,33 @@
         display: none
     .mobile-only
         display: block
+    .header
+        height: 10rem
+        &-mobile
+            display: flex
+            flex-direction: column
+            justify-content: center
+            &__logo
+                display: flex
+                flex-direction: row
+                justify-content: space-around
+                align-items: baseline
+                margin-bottom: 1.5rem
+                a
+                    display: block
+                    width: 10rem
+                    text-align: center
+                    text-decoration: none
+                    color: $text-color-active
+                .header-empty
+                    width: 10rem
+                .mobile-tel
+                    font-size: 1.3rem
+                .mobile__logo
+            &__menu
+                .menu
+                    a
+                        font-size: 0.8rem
     .main
         &__title
             &_acitve
@@ -85,8 +112,35 @@
 @media only screen and (max-width: 420px) //Мой телефон 360
     body
     .header // Шапка
-        padding-top: 3vh
+        height: 7rem
         &__info
+        &-mobile
+            display: flex
+            flex-direction: column
+            justify-content: center
+            &__logo
+                display: flex
+                flex-direction: row
+                justify-content: space-around
+                align-items: baseline
+                margin-bottom: 1rem
+                img
+                    width: 3rem
+                a
+                    display: block
+                    width: 6rem
+                    text-align: center
+                    text-decoration: none
+                    color: $text-color-active
+                .header-empty
+                    width: 6rem
+                .mobile-tel
+                    font-size: 0.7rem
+                .mobile__logo
+            &__menu
+                .menu
+                    a
+                        font-size: 0.6rem
     .menu
         &__wrapper_left
         &__wrapper_right
@@ -97,13 +151,15 @@
     .lorem
     .main //Главная
         &__title
-            height: 99vh
+            height: 60vh
             &_acitve
                 font-size: 1.5rem
                 line-height: 2.1rem
+                margin: 2rem auto
             &_small
                 opacity: 0.9
-                font-size: 1.1rem
+                font-size: 1rem
+                line-height: 3rem
         &__about
             .transparent-block
                 padding: 0.5rem
