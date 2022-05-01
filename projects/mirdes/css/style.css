@@ -2697,6 +2697,30 @@ body {
     color: #ffffff;
     margin-top: 2rem;
   }
+  .main__price-title h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .main__price .transparent-block {
+    background-size: contain;
+    height: 7vh;
+    margin: 1rem 0;
+  }
+  .main__price-wrapper {
+    width: 100vw;
+  }
+  .main__price-wrapper .price-color__gray {
+    height: 31rem;
+  }
+  .main__price-item {
+    height: 26rem;
+    margin: 0.5rem auto;
+    line-height: 1.2re;
+  }
+  .main__price-item h2 {
+    font-size: 1.2rem;
+  }
   .services-img {
     height: 50vh;
   }
