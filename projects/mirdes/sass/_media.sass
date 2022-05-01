@@ -214,7 +214,37 @@
                     line-height: 1.5rem
                     font-size: 1.3rem
                     strong
-        &__boss // О Боссе
+        &__boss-mobile // О Боссе
+            height: 40rem
+            background: url(../img/main/boss-color.png) center no-repeat
+            .main__slider
+                height: 100%
+                .slider-item
+                    padding: 1rem
+                    .mobile__boss-title
+                        height: 36rem
+                        width: 100vw
+                        display: flex
+                        padding-right: 0.9rem
+                        flex-direction: column
+                        justify-content: end
+                        color: $text-color-active
+                        text-align: right
+                        h2
+                            margin-bottom: 2rem
+                        p
+                            font-size: 0.7rem
+                    .mobile__boss-text
+                        width: 100vw
+                        height: 36rem
+                        display: flex
+                        flex-direction: column
+                        justify-content: end
+                        p
+                            color: $text-color-light
+                            margin-top: 2rem
+                            font-size: 0.9rem
+                            padding-left: 0.7rem
         &__steps //Шаги
             background: $color-dark
             &-title
