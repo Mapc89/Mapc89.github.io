@@ -2294,6 +2294,9 @@ body {
   .transparent-block__text {
     max-width: 95%;
   }
+  .about__princips .button-active {
+    width: auto;
+  }
   .about__boss {
     background: none;
   }
