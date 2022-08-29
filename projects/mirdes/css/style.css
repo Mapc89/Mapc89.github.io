@@ -2773,6 +2773,7 @@ body {
     width: 100vw;
   }
   .main__price-wrapper .price__slider {
+    width: 100%;
     margin-left: 0;
   }
   .main__price-wrapper .price__slider .main__price-item {
