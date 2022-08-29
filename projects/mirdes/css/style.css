@@ -1366,6 +1366,11 @@ body {
   padding: 2rem;
 }
 
+.portfolio-cover__text a {
+  text-decoration: none;
+  color: #FFC773;
+}
+
 .portfolio-cover__text h2 {
   font-size: 4rem;
 }
