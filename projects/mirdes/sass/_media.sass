@@ -451,7 +451,7 @@
                         color: $text-color-light
                         margin-top: 4rem
 
-        &__price
+        &__price // Услуги и цены
             &-title
                 h2
                     text-transform: uppercase
@@ -463,14 +463,30 @@
                 margin: 1rem 0
             &-wrapper
                 width: 100vw
-                .price-color__gray
-                    height: 31rem
-            &-item
-                height: 26rem
-                margin: 0.5rem auto
-                line-height: 1.2re
-                h2
-                    font-size: 1.2rem
+                .price__slider
+                    margin-left: 0
+                    .main__price-item
+                        width: 100vw
+                        height: 30rem
+                        line-height: 1.2rem
+                        h2
+                            font-size: 1.2rem
+                    .slick-dots
+                        display: flex
+                        justify-content: center
+                        margin: 0.5rem auto
+                        button
+                            margin: 0 0.2rem
+                            font-size: 0
+                            width: 0.7rem
+                            height: 0.7rem
+                            padding: 0
+                            background-color: #1F1B20
+                            border-radius: 50%
+                            border: none
+                        li.slick-active
+                            button
+                                background-color: #FFC773
     .services-img //Услуги
         height: 50vh
     .slider-wrapper

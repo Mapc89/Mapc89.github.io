@@ -2772,16 +2772,38 @@ body {
   .main__price-wrapper {
     width: 100vw;
   }
-  .main__price-wrapper .price-color__gray {
-    height: 31rem;
+  .main__price-wrapper .price__slider {
+    margin-left: 0;
   }
-  .main__price-item {
-    height: 26rem;
-    margin: 0.5rem auto;
-    line-height: 1.2re;
+  .main__price-wrapper .price__slider .main__price-item {
+    width: 100vw;
+    height: 30rem;
+    line-height: 1.2rem;
   }
-  .main__price-item h2 {
+  .main__price-wrapper .price__slider .main__price-item h2 {
     font-size: 1.2rem;
+  }
+  .main__price-wrapper .price__slider .slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0.5rem auto;
+  }
+  .main__price-wrapper .price__slider .slick-dots button {
+    margin: 0 0.2rem;
+    font-size: 0;
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0;
+    background-color: #1F1B20;
+    border-radius: 50%;
+    border: none;
+  }
+  .main__price-wrapper .price__slider .slick-dots li.slick-active button {
+    background-color: #FFC773;
   }
   .services-img {
     height: 50vh;
