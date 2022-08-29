@@ -34,5 +34,12 @@ window.addEventListener('DOMContentLoaded', () => {
         centerMode: true,
         variableWidth: true
     });  
+    $('.advantages__slider').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+    });  
 });
 

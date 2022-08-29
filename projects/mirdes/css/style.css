@@ -2629,31 +2629,57 @@ body {
   .main__advantages-mobile .m-advantages__title h2 {
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-weight: bold;
   }
-  .main__advantages-mobile .specialists {
-    margin-bottom: 0.5rem;
+  .main__advantages-mobile .advantages__slider {
+    margin-left: 0;
+  }
+  .main__advantages-mobile .advantages__slider .slider-item {
+    width: 100vw;
+    height: 34rem;
+  }
+  .main__advantages-mobile .advantages__slider .slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0.5rem auto;
+  }
+  .main__advantages-mobile .advantages__slider .slick-dots button {
+    margin: 0 0.2rem;
+    font-size: 0;
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0;
+    background-color: #1F1B20;
+    border-radius: 50%;
+    border: none;
+  }
+  .main__advantages-mobile .advantages__slider .slick-dots li.slick-active button {
+    background-color: #FFC773;
+  }
+  .main__advantages-mobile .advantages__slider .specialists {
     padding: 1rem;
     height: 34rem;
     border-radius: 2rem;
     background: url(../img/main/advantages/specialists.jpg) center no-repeat;
     background-size: cover;
   }
-  .main__advantages-mobile .specialists h2 {
+  .main__advantages-mobile .advantages__slider .specialists h2 {
     margin-top: 2.5rem;
     color: #FFC773;
     font-size: 2rem;
     text-transform: uppercase;
   }
-  .main__advantages-mobile .specialists p {
+  .main__advantages-mobile .advantages__slider .specialists p {
     color: #ffffff;
     margin-top: 3rem;
   }
-  .main__advantages-mobile .dark-bg::before {
+  .main__advantages-mobile .advantages__slider .dark-bg::before {
     border-radius: 2rem;
   }
-  .main__advantages-mobile .builders {
-    margin-bottom: 0.5rem;
+  .main__advantages-mobile .advantages__slider .builders {
     padding: 1rem;
     height: 34rem;
     color: #000000;
@@ -2661,82 +2687,77 @@ body {
     background: url(../img/main/advantages/builders.jpg) center no-repeat;
     background-size: cover;
   }
-  .main__advantages-mobile .builders h2 {
+  .main__advantages-mobile .advantages__slider .builders h2 {
     margin-top: 2.5rem;
     font-size: 2rem;
     text-transform: uppercase;
   }
-  .main__advantages-mobile .builders p {
+  .main__advantages-mobile .advantages__slider .builders p {
     margin-top: 3rem;
   }
-  .main__advantages-mobile .budget {
-    margin-bottom: 0.5rem;
+  .main__advantages-mobile .advantages__slider .budget {
     padding: 1rem;
-    height: 25rem;
+    height: 34rem;
     color: #000000;
     border-radius: 2rem;
     background: url(../img/main/advantages/budget.jpg) bottom no-repeat;
-    background-size: contain;
   }
-  .main__advantages-mobile .budget h2 {
+  .main__advantages-mobile .advantages__slider .budget h2 {
     margin-top: 2.5rem;
     font-size: 2rem;
     text-transform: uppercase;
   }
-  .main__advantages-mobile .budget p {
+  .main__advantages-mobile .advantages__slider .budget p {
     margin-top: 3rem;
   }
-  .main__advantages-mobile .realizability {
-    margin-bottom: 0.5rem;
+  .main__advantages-mobile .advantages__slider .realizability {
     padding: 1rem;
-    height: 30rem;
+    height: 34rem;
     color: #000000;
     border-radius: 2rem;
     background: url(../img/main/advantages/realizability.jpg) center no-repeat;
     background-size: cover;
   }
-  .main__advantages-mobile .realizability h2 {
+  .main__advantages-mobile .advantages__slider .realizability h2 {
     margin-top: 2.5rem;
     font-size: 2rem;
     text-transform: uppercase;
   }
-  .main__advantages-mobile .realizability p {
+  .main__advantages-mobile .advantages__slider .realizability p {
     margin-top: 3rem;
   }
-  .main__advantages-mobile .approach {
-    margin-bottom: 0.5rem;
+  .main__advantages-mobile .advantages__slider .approach {
     padding: 1rem;
-    height: 27rem;
+    height: 34rem;
     color: #000000;
     border-radius: 2rem;
     background: url(../img/main/advantages/approach.jpg) bottom no-repeat;
     background-size: contain;
   }
-  .main__advantages-mobile .approach h2 {
+  .main__advantages-mobile .advantages__slider .approach h2 {
     margin-top: 2.5rem;
     font-size: 2rem;
     text-transform: uppercase;
   }
-  .main__advantages-mobile .approach p {
+  .main__advantages-mobile .advantages__slider .approach p {
     margin-top: 3rem;
   }
-  .main__advantages-mobile .supervision {
-    margin-bottom: 0.5rem;
+  .main__advantages-mobile .advantages__slider .supervision {
     padding: 1rem;
-    height: 26rem;
+    height: 34rem;
     color: #000000;
     border-radius: 2rem;
     background-color: #1b2026;
   }
-  .main__advantages-mobile .supervision h2 {
+  .main__advantages-mobile .advantages__slider .supervision h2 {
     margin-top: 1.5rem;
     color: #FFC773;
     font-size: 1.8rem;
     text-transform: uppercase;
   }
-  .main__advantages-mobile .supervision p {
+  .main__advantages-mobile .advantages__slider .supervision p {
     color: #ffffff;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
   .main__price-title h2 {
     text-transform: uppercase;
