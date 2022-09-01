@@ -204,15 +204,34 @@ body {
 }
 
 .main__title_small {
-  font-size: 24px;
-  line-height: 4rem;
+  font-size: 2rem;
+  text-transform: initial;
+  line-height: 3rem;
   max-width: 37rem;
   margin: 0 auto;
   color: #ffffff;
 }
 
+.main__title_small span {
+  color: #FFC773;
+}
+
+.main__title h3 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
 .main__about {
   background: url(../img/transparent/about.png) center no-repeat;
+}
+
+.main__about .transparent-block__text h2 {
+  max-width: 95%;
+  line-height: 1.7rem;
+}
+
+.main__about .transparent-block__text h2 span {
+  color: #FFC773;
 }
 
 .main__slider {
@@ -271,6 +290,14 @@ body {
 }
 
 .main__projects-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 4rem;
+  letter-spacing: 0.4rem;
   max-width: 62vw;
   margin: 0 auto 4rem;
   font-size: 3rem;
@@ -383,6 +410,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.main__boss-text span {
+  color: #FFC773;
+}
+
 .main__boss-subtitle {
   position: absolute;
   height: 1rem;
@@ -426,6 +457,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  line-height: 2rem;
   width: 100%;
 }
 
@@ -456,7 +488,7 @@ body {
 
 .main__steps-item_1 p, .main__steps-item_2 p, .main__steps-item_3 p, .main__steps-item_4 p {
   text-transform: initial;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .main__steps-item_1 {
@@ -707,6 +739,7 @@ body {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: bold;
+  letter-spacing: 0.5rem;
 }
 
 .main__price-wrapper {
@@ -2400,7 +2433,7 @@ body {
   }
   .main__title_small {
     opacity: 0.9;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 3rem;
   }
   .main__about {
