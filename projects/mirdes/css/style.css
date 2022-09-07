@@ -909,9 +909,14 @@ body {
 }
 
 .main__connect .connect-text p {
+  margin: 1rem 0;
   text-transform: uppercase;
   font-family: 'NobelWGL';
   font-size: 24px;
+}
+
+.main__connect .connect-text a {
+  margin-right: 8rem;
 }
 
 .services-img {
@@ -1573,7 +1578,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 62vh;
+  height: 50vh;
   padding: 0 10rem;
   font-size: 18px;
   text-align: center;
@@ -2438,7 +2443,7 @@ body {
   }
   .main__about {
     background-position: top;
-    height: 55vh;
+    height: 65vh;
   }
   .main__about .transparent-block {
     padding: 0.5rem;
@@ -2493,6 +2498,9 @@ body {
   .main .instagram__img a {
     margin: 1.5rem auto 8rem;
   }
+  .main__connect {
+    height: 50vh;
+  }
   .main__connect .connect-title {
     margin: 0;
   }
@@ -2500,6 +2508,7 @@ body {
     font-size: 12px;
   }
   .main__connect .connect-text p {
+    margin: auto;
     width: 21rem;
     line-height: 1.5rem;
     font-size: 1rem;
