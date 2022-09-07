@@ -1181,6 +1181,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2rem;
+  margin-bottom: 2rem;
   background: url(../img/transparent/AUTHOR.png) center no-repeat;
   background-color: #1F1B20;
   background-position: right 1vw top 1vw;
@@ -1217,6 +1218,82 @@ body {
 .option-services__author .author__price span {
   font-weight: 600;
   font-size: 4rem;
+}
+
+.option-services__equipment {
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: url(../img/transparent/EQUIPMENT.png) center no-repeat;
+  background-color: #1F1B20;
+  background-position: right 1vw top 1vw;
+}
+
+.option-services__equipment .option-services__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.option-services__equipment .option-services__price h2 {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.option-services__equipment p {
+  padding: 0;
+  margin: 0;
+}
+
+.option-services__consultation {
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: url(../img/transparent/CONSULTATION.png) center no-repeat;
+  background-color: #1F1B20;
+  background-position: right 1vw top 1vw;
+}
+
+.option-services__consultation .option-services__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.option-services__consultation .option-services__price h2 {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.option-services__consultation p {
+  padding: 0;
+  margin: 0;
 }
 
 .be-yourself .transparent-block {
@@ -2471,6 +2548,7 @@ body {
     max-width: 90vw;
     font-size: 1.5rem;
     margin: 0 auto;
+    line-height: 2.4rem;
   }
   .main__projects-image {
     width: 90vw;
@@ -2966,6 +3044,7 @@ body {
   }
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title h2, .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title p {
     min-width: 45vw;
+    line-height: 1rem;
   }
   .slider-mobile .slider-item__option .mobile-option__item .mobile-option__title h2 {
     text-align: end;
