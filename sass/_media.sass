@@ -1,4 +1,4 @@
-@media only screen and (max-width: 630px)
+@media only screen and (max-width: 420px)
     .header
         flex-direction: column
         padding: 33px 35px 0
@@ -10,13 +10,16 @@
             padding-top: 15px
             justify-content: space-around
     .main
-        &-text 
+        width: 100vw
+        &-text
             &:after
-                width: 600px
+                width: 100vw
                 left: -50px
-        
     .projects
         width: 490px
+        .projects-wrapper
+            flex-direction: column
+            align-items: center
     .about
         display: none
     .footer

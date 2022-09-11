@@ -108,8 +108,8 @@
   text-transform: uppercase;
 }
 
-.header-menu_item:hover {
-  background-color: #d45e5e;
+.header-menu:hover {
+  background-color: #1F1B20;
   color: #ffffff;
 }
 
@@ -194,7 +194,7 @@
 .about {
   width: 100%;
   height: 262px;
-  background-color: #d45e5e;
+  background-color: #1F1B20;
   color: #ffffff;
 }
 
@@ -225,7 +225,7 @@
   margin-bottom: 40px;
 }
 
-.about-me__title-photo {
+.about-me-photo {
   position: absolute;
   left: 0;
   top: -50px;
@@ -243,11 +243,11 @@
           align-items: center;
 }
 
-.about-me__title-photo img {
+.about-me-photo img {
   width: 130px;
 }
 
-.about-me__title-name {
+.about-me-name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,24 +258,24 @@
   padding-left: 160px;
 }
 
-.about-me__title-name_myname {
+.about-me-name_myname {
   font-family: Cambria-Italic;
   font-size: 25px;
   margin-bottom: 5px;
 }
 
-.about-me__title-name_country {
+.about-me-name_country {
   font-family: "PT Sans";
   font-size: 13px;
   font-weight: 400;
 }
 
-.about-me__title-name_country i {
+.about-me-name i {
   margin-right: 10px;
   font-size: 15px;
 }
 
-.about-me__title-icons {
+.about-me-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,7 +286,7 @@
           justify-content: space-between;
 }
 
-.about-me__title-icons a {
+.about-me-icons a {
   color: #ffffff;
 }
 
@@ -318,7 +318,7 @@
           flex-direction: column;
 }
 
-.about-skills__subtitle-item {
+.about-skills-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,13 +330,13 @@
           align-items: baseline;
 }
 
-.about-skills__subtitle-item span {
+.about-skills-item span {
   font-family: "PT Sans";
   font-size: 19px;
   font-weight: 400;
 }
 
-.about-skills__subtitle-item img {
+.about-skills-item img {
   height: 10px;
 }
 
@@ -347,7 +347,7 @@
   padding: 14px 0;
 }
 
-.footer span {
+span {
   display: block;
   font-family: "PT Sans", sans-serif;
   font-size: 13px;
@@ -357,7 +357,7 @@
   margin-right: 140px;
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 420px) {
   .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -375,12 +375,24 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .main {
+    width: 100vw;
+  }
   .main-text:after {
-    width: 600px;
+    width: 100vw;
     left: -50px;
   }
   .projects {
     width: 490px;
+  }
+  .projects .projects-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .about {
     display: none;
