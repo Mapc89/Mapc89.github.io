@@ -2558,6 +2558,9 @@ body {
   .header-mobile__menu .menu__item {
     letter-spacing: inherit;
   }
+  .menu__item {
+    margin: 0 0.4rem;
+  }
   .main__title {
     height: 60vh;
     -webkit-box-pack: justify;
