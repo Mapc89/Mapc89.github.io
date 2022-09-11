@@ -2554,6 +2554,8 @@ body {
   }
   .header-mobile__menu .menu a {
     font-size: 0.6rem;
+  }
+  .header-mobile__menu .menu__item {
     letter-spacing: inherit;
   }
   .main__title {
