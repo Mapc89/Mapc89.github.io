@@ -359,11 +359,12 @@
 }
 
 @media only screen and (max-width: 420px) {
+  body {
+    width: 13rem;
+    margin: 0;
+  }
+
   .header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
     padding: 1rem;
     width: 13rem;
     margin: 0;
@@ -400,18 +401,18 @@
   }
 
   .projects {
-    width: 13rem;
+    width: 100vw;
     margin: 0;
   }
 
   .projects-wrapper {
     flex-direction: column;
-    width: 13rem;
+    width: 100vw;
   }
 
   .projects-item {
     width: auto;
-    ;
+    padding: 1rem;
   }
 
   .about {
