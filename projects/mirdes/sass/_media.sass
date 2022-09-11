@@ -56,6 +56,10 @@
                 margin: 0.3rem
                 img
             a
+                max-width: 10rem
+                height: 2rem
+                margin: 0
+                font-size: 10px
         &__connect
             .connect-title
                 width: 100%
@@ -192,47 +196,66 @@
     .lorem
     .main //Главная
         &__title
-            height: 60vh
+            height: 50vh
             justify-content: space-between
             &_acitve
                 font-size: 1.5rem
                 line-height: 2.1rem
-                margin: 3rem auto
+                margin: 3rem 0 0
             &_small
                 opacity: 0.9
-                font-size: 2rem
-                line-height: 3rem
+                font-size: 1.4rem
+                line-height: 2rem
+        &__steps-social
+            h2
+                font-size: 0.65rem
         &__about
             background-position: top
-            height: 65vh
+            height: 52vh
             .transparent-block
                 padding: 0.5rem
                 &__text
                     margin: 0 auto
                     h2
-                        font-size: 0.8rem
+                        font-size: 0.65rem
                         margin: 0 auto
-                        text-align: center
+                        text-align: left
+                        line-height: 1.1
+                        max-width: 100%
                     p
                         margin-top: 1rem
                         font-size: 1rem
                         line-height: 1.3
         &__img
         &__portfolio
+            .button-active
+                height: 2rem
+                max-width: 10rem
+                margin: 0 auto
+                font-size: 10px
             .main__slider
                 &-img
                     max-height: 15rem
                     img
                         max-height: 15rem
+                .slick-dots
+                    margin: 0.1rem auto 0.5rem
+                    li
+                        margin: 0 0.4rem
+                    button
+                        width: 0.5rem
+                        height: 0.5rem
         &__projects
             &-title
                 max-width: 90vw
-                font-size: 1.5rem
+                font-size: 1rem
                 margin: 0 auto
-                line-height: 2.4rem
+                line-height: 1.3rem
+                letter-spacing: 0.1rem
+                justify-content: flex-start
             &-image
                 width: 90vw
-                height: 65vh
+                height: 40vh
                 .main__projects-pic
                     margin: 0 auto
                     width: 22%
@@ -240,8 +263,8 @@
             margin-bottom: 0
             a
                 width: 100%
-                margin: 2rem 0rem
-                font-size: 1rem
+                margin: 2rem auto
+                font-size: 10px
             &__title
             &__picture
                 max-width: 100%
@@ -383,8 +406,8 @@
                     button
                         margin: 0 0.2rem
                         font-size: 0
-                        width: 0.7rem
-                        height: 0.7rem
+                        width: 0.5rem
+                        height: 0.5rem
                         padding: 0
                         background-color: #1F1B20
                         border-radius: 50%
@@ -503,8 +526,8 @@
                         button
                             margin: 0 0.2rem
                             font-size: 0
-                            width: 0.7rem
-                            height: 0.7rem
+                            width: 0.5rem
+                            height: 0.5rem
                             padding: 0
                             background-color: #1F1B20
                             border-radius: 50%
@@ -512,6 +535,11 @@
                         li.slick-active
                             button
                                 background-color: #FFC773
+            .button-active
+                font-size: 10px
+                max-width: 10rem
+                height: 2rem
+                margin: 0.5rem auto
     .services-img //Услуги
         height: 50vh
     .slider-wrapper

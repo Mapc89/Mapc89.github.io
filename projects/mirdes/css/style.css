@@ -2425,6 +2425,12 @@ body {
     height: 10rem;
     margin: 0.3rem;
   }
+  .main .instagram a {
+    max-width: 10rem;
+    height: 2rem;
+    margin: 0;
+    font-size: 10px;
+  }
   .main__connect .connect-title {
     width: 100%;
   }
@@ -2562,7 +2568,7 @@ body {
     margin: 0 0.4rem;
   }
   .main__title {
-    height: 60vh;
+    height: 50vh;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -2570,16 +2576,19 @@ body {
   .main__title_acitve {
     font-size: 1.5rem;
     line-height: 2.1rem;
-    margin: 3rem auto;
+    margin: 3rem 0 0;
   }
   .main__title_small {
     opacity: 0.9;
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .main__steps-social h2 {
+    font-size: 0.65rem;
   }
   .main__about {
     background-position: top;
-    height: 65vh;
+    height: 52vh;
   }
   .main__about .transparent-block {
     padding: 0.5rem;
@@ -2588,14 +2597,22 @@ body {
     margin: 0 auto;
   }
   .main__about .transparent-block__text h2 {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+    line-height: 1.1;
+    max-width: 100%;
   }
   .main__about .transparent-block__text p {
     margin-top: 1rem;
     font-size: 1rem;
     line-height: 1.3;
+  }
+  .main__portfolio .button-active {
+    height: 2rem;
+    max-width: 10rem;
+    margin: 0 auto;
+    font-size: 10px;
   }
   .main__portfolio .main__slider-img {
     max-height: 15rem;
@@ -2603,15 +2620,29 @@ body {
   .main__portfolio .main__slider-img img {
     max-height: 15rem;
   }
+  .main__portfolio .main__slider .slick-dots {
+    margin: 0.1rem auto 0.5rem;
+  }
+  .main__portfolio .main__slider .slick-dots li {
+    margin: 0 0.4rem;
+  }
+  .main__portfolio .main__slider .slick-dots button {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
   .main__projects-title {
     max-width: 90vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0 auto;
-    line-height: 2.4rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .main__projects-image {
     width: 90vw;
-    height: 65vh;
+    height: 40vh;
   }
   .main__projects-image .main__projects-pic {
     margin: 0 auto;
@@ -2622,8 +2653,8 @@ body {
   }
   .main .instagram a {
     width: 100%;
-    margin: 2rem 0rem;
-    font-size: 1rem;
+    margin: 2rem auto;
+    font-size: 10px;
   }
   .main .instagram__picture {
     max-width: 100%;
@@ -2833,8 +2864,8 @@ body {
   .main__advantages-mobile .advantages__slider .slick-dots button {
     margin: 0 0.2rem;
     font-size: 0;
-    width: 0.7rem;
-    height: 0.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
     padding: 0;
     background-color: #1F1B20;
     border-radius: 50%;
@@ -2980,8 +3011,8 @@ body {
   .main__price-wrapper .price__slider .slick-dots button {
     margin: 0 0.2rem;
     font-size: 0;
-    width: 0.7rem;
-    height: 0.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
     padding: 0;
     background-color: #1F1B20;
     border-radius: 50%;
@@ -2989,6 +3020,12 @@ body {
   }
   .main__price-wrapper .price__slider .slick-dots li.slick-active button {
     background-color: #FFC773;
+  }
+  .main__price .button-active {
+    font-size: 10px;
+    max-width: 10rem;
+    height: 2rem;
+    margin: 0.5rem auto;
   }
   .services-img {
     height: 50vh;
