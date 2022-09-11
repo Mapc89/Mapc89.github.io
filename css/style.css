@@ -400,6 +400,9 @@ span {
   .footer {
     display: none;
   }
+  .mobile-hide {
+    display: none;
+  }
 }
 
 img {
