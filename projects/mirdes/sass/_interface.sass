@@ -283,3 +283,24 @@
     animation-duration: 2.5s
 .mobile-only
     display: none
+// Галерея в портфолио
+.lightbox
+    .lb-nav
+        .lb-prev
+            background: url(../img/ico/arrowl.png) left 20% no-repeat
+        .lb-next
+            background: url(../img/ico/arrowr.png) right 20% no-repeat
+        a.lb-prev
+            width: 20%
+            background-size: contain
+            background-position-y: center
+        a.lb-prev:hover
+            opacity: 0.5
+        a.lb-next
+            width: 20%
+            background-size: contain
+            background-position-y: center
+        a.lb-next:hover
+            opacity: 0.5
+.lightboxOverlay
+    background-color: #c0c0c0

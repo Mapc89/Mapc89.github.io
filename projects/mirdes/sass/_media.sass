@@ -130,9 +130,24 @@
         margin: 2rem auto
         color: black
         background-color: black
+    //Галерея в портфолио
+    .lightbox
+        .lb-nav
+            a.lb-prev
+                width: 20%
+                background-size: contain
+                background-position-y: center
+                opacity: 0.5
+            a.lb-next
+                width: 20%
+                background-size: contain
+                background-position-y: center
+                opacity: 0.5
     body
     .header // Шапка
         height: 7rem
+        align-items: flex-start
+        padding-top: 2vh
         &__info
         &-mobile
             display: flex
@@ -141,26 +156,29 @@
             &__logo
                 display: flex
                 flex-direction: row
-                justify-content: space-around
+                justify-content: space-between
                 align-items: baseline
-                margin-bottom: 1rem
+                margin-bottom: 2rem
                 img
-                    width: 4rem
+                    width: 8rem
                 a
                     display: block
-                    width: 6rem
+                    width: 10rem
                     text-align: center
                     text-decoration: none
                     color: $text-color-active
                 .header-empty
                     width: 6rem
                 .mobile-tel
-                    font-size: 0.7rem
+                    font-size: 1rem
+                    margin-left: 4rem
+                    font-weight: 600
                 .mobile__logo
             &__menu
                 .menu
                     a
                         font-size: 0.6rem
+                        letter-spacing: inherit
     .menu
         &__wrapper_left
         &__wrapper_right

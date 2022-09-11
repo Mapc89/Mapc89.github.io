@@ -124,8 +124,7 @@ body {
 }
 
 .menu .logo {
-  width: 5rem;
-  padding-top: 1rem;
+  width: 13rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
   z-index: 2;
@@ -2312,6 +2311,38 @@ body {
   display: none;
 }
 
+.lightbox .lb-nav .lb-prev {
+  background: url(../img/ico/arrowl.png) left 20% no-repeat;
+}
+
+.lightbox .lb-nav .lb-next {
+  background: url(../img/ico/arrowr.png) right 20% no-repeat;
+}
+
+.lightbox .lb-nav a.lb-prev {
+  width: 20%;
+  background-size: contain;
+  background-position-y: center;
+}
+
+.lightbox .lb-nav a.lb-prev:hover {
+  opacity: 0.5;
+}
+
+.lightbox .lb-nav a.lb-next {
+  width: 20%;
+  background-size: contain;
+  background-position-y: center;
+}
+
+.lightbox .lb-nav a.lb-next:hover {
+  opacity: 0.5;
+}
+
+.lightboxOverlay {
+  background-color: #c0c0c0;
+}
+
 @media only screen and (max-width: 1366px) {
   .menu .logo {
     width: 4rem;
@@ -2453,8 +2484,24 @@ body {
     color: black;
     background-color: black;
   }
+  .lightbox .lb-nav a.lb-prev {
+    width: 20%;
+    background-size: contain;
+    background-position-y: center;
+    opacity: 0.5;
+  }
+  .lightbox .lb-nav a.lb-next {
+    width: 20%;
+    background-size: contain;
+    background-position-y: center;
+    opacity: 0.5;
+  }
   .header {
     height: 7rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 2vh;
   }
   .header-mobile {
     display: -webkit-box;
@@ -2476,19 +2523,20 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   .header-mobile__logo img {
-    width: 4rem;
+    width: 8rem;
   }
   .header-mobile__logo a {
     display: block;
-    width: 6rem;
+    width: 10rem;
     text-align: center;
     text-decoration: none;
     color: #FFC773;
@@ -2497,10 +2545,13 @@ body {
     width: 6rem;
   }
   .header-mobile__logo .mobile-tel {
-    font-size: 0.7rem;
+    font-size: 1rem;
+    margin-left: 4rem;
+    font-weight: 600;
   }
   .header-mobile__menu .menu a {
     font-size: 0.6rem;
+    letter-spacing: inherit;
   }
   .main__title {
     height: 60vh;
