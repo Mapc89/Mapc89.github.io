@@ -2546,8 +2546,11 @@ body {
   }
   .header-mobile__logo .mobile-tel {
     font-size: 1rem;
-    margin-left: 4rem;
     font-weight: 600;
+    padding: 0 0 0 1rem;
+  }
+  .header-mobile__logo .mobile__logo {
+    padding-right: 2rem;
   }
   .header-mobile__menu .menu a {
     font-size: 0.6rem;
