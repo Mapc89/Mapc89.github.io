@@ -24,6 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
         infinite: true,
         adaptiveHeight: true,
         autoplay: true,
+        dots: true,
         autoplaySpeed: 3000
     });   
     $('.slider-portfolio').slick();  

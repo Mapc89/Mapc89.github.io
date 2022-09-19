@@ -147,6 +147,12 @@
                 background-size: contain
                 background-position-y: center
                 opacity: 0.5
+    // Кнопки
+    .button-active
+        max-width: 10rem
+        height: 2rem
+        font-size: 10px
+        margin: 0 auto
     body
     .header // Шапка
         height: 7rem
@@ -249,7 +255,7 @@
             &-title
                 max-width: 90vw
                 font-size: 1rem
-                margin: 0 auto
+                margin: 1rem auto
                 line-height: 1.3rem
                 letter-spacing: 0.1rem
                 justify-content: flex-start
@@ -257,8 +263,8 @@
                 width: 90vw
                 height: 40vh
                 .main__projects-pic
-                    margin: 0 auto
-                    width: 22%
+                    margin: 0 1rem
+                    width: 15%
         .instagram
             margin-bottom: 0
             a
@@ -544,18 +550,36 @@
         height: 50vh
     .slider-wrapper
         .price-list__title
-            height: 15vh
+            height: 25vh
             display: flex
             justify-content: center
             p
                 font-size: 1rem
         .option-services__block
-            height: 30vh
+            height: 50vh
+            display: flex
+            justify-content: center
             .option-services__title
                 text-align: center
                 p
                     font-size: 1rem
     .slider-mobile
+        .slick-dots
+            display: flex
+            justify-content: center
+            margin: -1.5rem auto 1rem
+            button
+                margin: 0 0.2rem
+                font-size: 0
+                width: 0.5rem
+                height: 0.5rem
+                padding: 0
+                background-color: #1F1B20
+                border-radius: 50%
+                border: none
+            li.slick-active
+                button
+                    background-color: #FFC773
         .slider-item__advantage //Преимущества
             display: flex
             flex-direction: column
@@ -593,8 +617,9 @@
                     font-size: 1.2rem
                     opacity: 0.6
             .price-list__offer
-                height: 56rem
                 border-radius: 0
+                .price-list__price
+                    padding: 1.5rem
             .price-list__text
                 ul
                     list-style: circle
@@ -626,10 +651,9 @@
                         margin: 0 0.3rem
                         border-left: 2px solid rgba(255, 199, 115, 0.5)
                 .mobile-option__offer-plane
-                    height: 100vh
                     background-color: $color-dark
                     color: $text-color-light
-                    padding: 2rem 1rem 0
+                    padding: 2rem 1rem 3rem
                     margin-bottom: 2rem
                     h2
                         text-transform: uppercase
@@ -644,7 +668,6 @@
                         padding-top: 1rem
                         line-height: 1.3rem
                 .mobile-option__offer-author
-                    height: 100vh
                     background-color: $color-dark
                     color: $text-color-light
                     padding-left: 1rem
