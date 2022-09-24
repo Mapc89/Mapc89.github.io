@@ -1494,17 +1494,62 @@ body {
 }
 
 .pc-1 {
-  background: url(../img/portfolio/AF1Y/AF1Y.jpg) center no-repeat;
+  background: url(../img/portfolio/AF1Y/title.jpg) center no-repeat;
   background-size: cover;
 }
 
 .pc-2 {
-  background: url(../img/portfolio/Ff7h/Ff7h.png) center no-repeat;
+  background: url(../img/portfolio/Ff7h/title.jpg) center no-repeat;
   background-size: cover;
 }
 
 .pc-3 {
-  background: url(../img/portfolio/K1x1/K1x1.jpg) center no-repeat;
+  background: url(../img/portfolio/K1x1/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-4 {
+  background: url(../img/portfolio/11s7m/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-5 {
+  background: url(../img/portfolio/Noname1/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-6 {
+  background: url(../img/portfolio/Noname2/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-7 {
+  background: url(../img/portfolio/Noname3/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-8 {
+  background: url(../img/portfolio/Noname4/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-9 {
+  background: url(../img/portfolio/Noname5/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-10 {
+  background: url(../img/portfolio/Noname6/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-11 {
+  background: url(../img/portfolio/Noname7/title.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.pc-12 {
+  background: url(../img/portfolio/Noname8/title.jpg) center no-repeat;
   background-size: cover;
 }
 
