@@ -1397,6 +1397,15 @@ body {
   background-color: #1F1B20;
 }
 
+.portfolio-projects__img a {
+  width: 100%;
+  text-decoration: none;
+}
+
+.portfolio-projects__img a h2 {
+  color: #FFC773;
+}
+
 .portfolio-projects__img img {
   width: 100%;
   margin: 1rem 0;
@@ -1482,7 +1491,6 @@ body {
 
 .portfolio-cover__text a {
   text-decoration: none;
-  color: #FFC773;
 }
 
 .portfolio-cover__text h2 {
